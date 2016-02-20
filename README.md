@@ -17,4 +17,7 @@ multi-channel audio interfaces and multi-track audio software becoming commonpla
 The modular pickups are not just for guitars. Nus can also be utilized for other 
 musical instruments such as the bass guitar, harps, pianos, xylophones, etc. The 
 Nus are perfect for fanned-fret electric guitars with the pickup poles positioned 
-at various angles.
+at various angles. 
+
+This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 
+International License](http://creativecommons.org/licenses/by-nc/4.0/).
