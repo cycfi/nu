@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -470,10 +470,9 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="235.93605625" y1="25.186403125" x2="233.45903125" y2="25.186403125" width="0" layer="94"/>
 <wire x1="233.45903125" y1="25.186403125" x2="233.45903125" y2="33.142509375" width="0" layer="94"/>
 <text x="254" y="6.985" size="2.1844" layer="95">v1.0</text>
-<text x="12.7" y="12.7" size="2.54" layer="95">Nu Multi Channel Output Base Project by Cycfi Research 
-is licensed under a Creative Commons Attribution 3.0 
-Unported License.http://creativecommons.org/licenses/
-by/3.0/deed.en_US
+<text x="12.7" y="12.7" size="2.54" layer="95">Nu Project by Cycfi Research is licensed under a Creative 
+Commons Attribution-ShareAlike 4.0 International License. 
+http://creativecommons.org/licenses/by-sa/4.0/
 
 Copyright CYCFI Research Inc. 2013-2016</text>
 <text x="104.14" y="139.7" size="1.778" layer="95">INPUT
