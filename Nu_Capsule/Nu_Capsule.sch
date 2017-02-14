@@ -6088,7 +6088,7 @@ DIN A4, landscape with extra doc field</description>
 <text x="12.7" y="12.7" size="2.54" layer="95">Nu Preamp Project by Cycfi Research is licensed under a 
 Creative Commons Attribution-ShareAlike 4.0 International License. 
 
-Copyright CYCFI Research Inc. 2013-2016</text>
+Copyright CYCFI Research Inc. 2013-2017</text>
 <text x="73.66" y="77.47" size="1.778" layer="95">NC: SMD pads used
 for coil soldering</text>
 <text x="193.04" y="126.0475" size="1.778" layer="95">VCC(V+)</text>
@@ -6108,7 +6108,7 @@ for coil soldering</text>
 <wire x1="90.17" y1="91.44" x2="90.17" y2="86.995" width="0.1524" layer="94"/>
 <wire x1="90.17" y1="86.995" x2="79.375" y2="86.995" width="0.1524" layer="94"/>
 <wire x1="79.375" y1="86.995" x2="79.375" y2="88.265" width="0.1524" layer="94"/>
-<text x="200.66" y="11.43" size="2.54" layer="95">2016035</text>
+<text x="200.66" y="11.43" size="2.54" layer="95">201719</text>
 <text x="92.71" y="88.9" size="1.778" layer="95">OC</text>
 <text x="92.71" y="95.885" size="1.778" layer="95">IC</text>
 <text x="81.915" y="100.33" size="1.778" layer="95">COIL</text>
