@@ -6445,8 +6445,8 @@ http://www.micrel.com&lt;p&gt;
 <text x="7.62" y="7.62" size="2.54" layer="95">Internal Breakout Project by Cycfi Research is licensed under a 
 Creative Commons Attribution-ShareAlike 4.0 International License. 
 
-Copyright CYCFI Research Inc. 2013-2016</text>
-<text x="200.025" y="11.43" size="2.1844" layer="95">201605</text>
+Copyright CYCFI Research Inc. 2013-2017</text>
+<text x="200.025" y="11.43" size="2.1844" layer="95">201718</text>
 <text x="175.26" y="1.27" size="2.54" layer="94">12/29/2015 2:35:25 PM</text>
 <text x="203.2" y="119.38" size="2.54" layer="95">SUPPLY EXPANSION HEADERS</text>
 <text x="215.9" y="85.725" size="1.778" layer="95">9V</text>

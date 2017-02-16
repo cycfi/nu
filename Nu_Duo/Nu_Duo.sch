@@ -902,10 +902,11 @@ SELECTOR (L/R)
 <text x="208.915" y="123.825" size="1.778" layer="95">LEFT OUTPUT</text>
 <text x="208.915" y="113.665" size="1.778" layer="95">VCC</text>
 <text x="238.76" y="6.35" size="2.54" layer="95">2.0</text>
-<text x="7.62" y="15.24" size="2.54" layer="97">Nu  Duo Project by Cycfi Research is licensed under a 
+<text x="12.7" y="10.16" size="3.048" layer="97">Nu  Duo Project by Cycfi Research is licensed under a 
 Creative Commons Attribution-ShareAlike 4.0 International License. 
 
-Copyright CYCFI Research Inc. 2013-2016</text>
+Copyright CYCFI Research Inc. 2013-2017</text>
+<text x="185.42" y="11.43" size="2.54" layer="95">201720</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
