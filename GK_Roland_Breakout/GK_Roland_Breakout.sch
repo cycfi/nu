@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -6795,12 +6795,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <sheets>
 <sheet>
 <plain>
-<text x="13.97" y="8.89" size="2.54" layer="95">GK Roland Breakout by Cycfi Research is licensed under a 
-Creative Commons Attribution-NonCommercial 4.0 
-International License. 
-http://creativecommons.org/licenses/by-nc/4.0/
+<text x="13.97" y="8.89" size="2.54" layer="95">GK Roland Breakout Project by Cycfi Research is licensed under a 
+Creative Commons Attribution-ShareAlike 4.0 International License. 
 
-Copyright CYCFI Research Inc. 2013-2016</text>
+Copyright CYCFI Research Inc. 2013-2017</text>
 <text x="162.56" y="19.05" size="2.54" layer="95">Internal Breakout Board - GK</text>
 <wire x1="178.362721875" y1="25.186403125" x2="163.27975" y2="25.186403125" width="0" layer="94"/>
 <wire x1="163.27975" y1="25.186403125" x2="162.57660625" y2="25.228778125" width="0" layer="94"/>
@@ -7008,6 +7006,7 @@ Copyright CYCFI Research Inc. 2013-2016</text>
 <text x="241.3" y="88.9" size="2.54" layer="95" rot="R90">13 Pin Extender</text>
 <text x="33.655" y="71.755" size="1.778" layer="95" rot="R180">GND</text>
 <text x="236.22" y="7.62" size="2.54" layer="95">0.9</text>
+<text x="185.42" y="11.43" size="2.54" layer="95">201722</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>

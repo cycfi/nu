@@ -470,10 +470,10 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="235.93605625" y1="25.186403125" x2="233.45903125" y2="25.186403125" width="0" layer="94"/>
 <wire x1="233.45903125" y1="25.186403125" x2="233.45903125" y2="33.142509375" width="0" layer="94"/>
 <text x="254" y="6.985" size="2.1844" layer="95">v1.0</text>
-<text x="12.7" y="12.7" size="2.54" layer="95">Nu Multi Project by Cycfi Research is licensed under a 
+<text x="12.7" y="12.7" size="2.794" layer="95">Nu Multi Project by Cycfi Research is licensed under a 
 Creative Commons Attribution-ShareAlike 4.0 International License. 
 
-Copyright CYCFI Research Inc. 2013-2016</text>
+Copyright CYCFI Research Inc. 2013-2017</text>
 <text x="104.14" y="139.7" size="1.778" layer="95">INPUT
 from Nu Modules</text>
 <text x="143.51" y="139.7" size="1.778" layer="95">OUTPUT
@@ -499,14 +499,15 @@ to Internal Breakout</text>
 <text x="105.41" y="121.285" size="1.778" layer="95">SIG</text>
 <text x="105.41" y="118.745" size="1.778" layer="95">GND</text>
 <text x="105.41" y="116.205" size="1.778" layer="95">VCC</text>
-<text x="113.665" y="135.255" size="1.778" layer="95">A</text>
-<text x="113.665" y="81.915" size="1.778" layer="95">C</text>
-<text x="113.665" y="108.585" size="1.778" layer="95">B</text>
-<text x="154.305" y="135.255" size="1.778" layer="95">A</text>
-<text x="154.305" y="108.585" size="1.778" layer="95">B</text>
-<text x="154.305" y="81.915" size="1.778" layer="95">C</text>
+<text x="113.665" y="135.255" size="1.778" layer="95">C</text>
+<text x="113.665" y="81.915" size="1.778" layer="95">B</text>
+<text x="113.665" y="108.585" size="1.778" layer="95">A</text>
+<text x="149.225" y="135.255" size="1.778" layer="95">CH9-CH12</text>
+<text x="149.225" y="108.585" size="1.778" layer="95">CH1-CH4</text>
+<text x="149.225" y="81.915" size="1.778" layer="95">CH5-CH8</text>
 <text x="114.3" y="52.07" size="1.778" layer="95">NOTES:
 *A,B,C = 1x7 FPC Connectors</text>
+<text x="200.66" y="11.43" size="2.54" layer="95">201721</text>
 </plain>
 <instances>
 <instance part="H2" gate="G$1" x="113.03" y="71.12" smashed="yes" rot="MR180">
