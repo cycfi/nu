@@ -630,7 +630,7 @@ Copyright CYCFI Research Inc. 2013-2017</text>
 <text x="71.755" y="100.965" size="1.778" layer="95">SW2</text>
 <wire x1="163.27975" y1="25.186403125" x2="160.73975" y2="25.186403125" width="0" layer="94"/>
 <text x="238.76" y="6.35" size="2.54" layer="95">0.93</text>
-<text x="182.88" y="8.89" size="2.54" layer="95">2017070404</text>
+<text x="185.42" y="11.43" size="2.54" layer="95">2017022</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>

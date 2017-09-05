@@ -8504,7 +8504,7 @@ Copyright CYCFI Research Inc. 2013-2017</text>
 <text x="238.76" y="99.06" size="2.54" layer="95" rot="R90">13 Pin Extender</text>
 <text x="33.655" y="71.755" size="1.778" layer="95" rot="R180">GND</text>
 <text x="236.22" y="7.62" size="2.54" layer="95">0.9</text>
-<text x="182.88" y="8.89" size="2.54" layer="95">2017070401</text>
+<text x="185.42" y="11.43" size="2.54" layer="95">2017023</text>
 <text x="219.71" y="46.99" size="2.54" layer="95">NOTE:
 +Ve = +7V
  -Ve =  -7V</text>

@@ -346,7 +346,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <sheets>
 <sheet>
 <plain>
-<text x="5.08" y="8.89" size="3.048" layer="95">Tact Switch for Nu Project by Cycfi Research is licensed under a Creative 
+<text x="5.08" y="8.89" size="2.54" layer="95">Tact Switch for Nu Project by Cycfi Research is licensed under a Creative 
 Commons Attribution-ShareAlike 4.0 International License.
 
 Copyright CYCFI Research Inc. 2013-2017</text>
@@ -506,7 +506,8 @@ Copyright CYCFI Research Inc. 2013-2017</text>
 <text x="190.5" y="96.52" size="1.778" layer="95" rot="R180">GND</text>
 <text x="96.52" y="91.44" size="1.778" layer="95" rot="R180">SW1</text>
 <text x="134.62" y="91.44" size="1.778" layer="95" rot="R180">SW2</text>
-<text x="185.42" y="8.89" size="2.54" layer="95">20170704</text>
+<text x="185.42" y="8.89" size="2.54" layer="95">2017024</text>
+<text x="238.76" y="6.35" size="2.54" layer="95">0.9</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>

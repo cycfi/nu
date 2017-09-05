@@ -6406,7 +6406,7 @@ http://www.micrel.com&lt;p&gt;
 <wire x1="235.93605625" y1="27.852909375" x2="235.93605625" y2="25.186403125" width="0" layer="94"/>
 <wire x1="235.93605625" y1="25.186403125" x2="233.45903125" y2="25.186403125" width="0" layer="94"/>
 <wire x1="233.45903125" y1="25.186403125" x2="233.45903125" y2="33.142509375" width="0" layer="94"/>
-<text x="254" y="6.985" size="2.1844" layer="95">v1.2</text>
+<text x="254" y="6.985" size="2.54" layer="95">v1.2</text>
 <text x="160.02" y="162.56" size="1.778" layer="96">LP2985IM5-6.1/NOPB</text>
 <text x="38.1" y="111.76" size="1.778" layer="95">Note: 1x3 male header
 2.54mm pitch</text>
@@ -6446,7 +6446,7 @@ http://www.micrel.com&lt;p&gt;
 Creative Commons Attribution-ShareAlike 4.0 International License. 
 
 Copyright CYCFI Research Inc. 2013-2017</text>
-<text x="200.025" y="11.43" size="2.1844" layer="95">201718</text>
+<text x="200.025" y="11.43" size="2.54" layer="95">2017018</text>
 <text x="175.26" y="1.27" size="2.54" layer="94">12/29/2015 2:35:25 PM</text>
 <text x="203.2" y="119.38" size="2.54" layer="95">SUPPLY EXPANSION HEADERS</text>
 <text x="215.9" y="85.725" size="1.778" layer="95">9V</text>

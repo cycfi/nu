@@ -350,10 +350,10 @@ LETTER landscape</description>
 <text x="158.115" y="-2.54" size="1.778" layer="95">VCC</text>
 <text x="158.115" y="-5.08" size="1.778" layer="95">GND</text>
 <text x="193.04" y="-85.09" size="2.54" layer="95">Active Base</text>
-<text x="267.97" y="-97.155" size="2.1844" layer="95">v0.94</text>
-<text x="37.0078" y="-92.9894" size="2.794" layer="95">Active Base for Nu Project by Cycfi Research is license 
-under a Creative  Commons Attribution-ShareAlike 4.0 
-International License. 
+<text x="267.97" y="-97.155" size="2.54" layer="95">v0.94</text>
+<text x="37.0078" y="-92.9894" size="2.54" layer="95">Active Base for Nu Project by Cycfi Research is license under
+a Creative  Commons Attribution-ShareAlike 4.0 International
+License. 
 
 Copyright CYCFI Research Inc. 2013-2017</text>
 <text x="30.48" y="-104.52735" size="0.154940625" layer="94" font="vector">C:/Users/mark belarmino/Desktop/Logo-2016.bmp</text>
@@ -5048,7 +5048,7 @@ Copyright CYCFI Research Inc. 2013-2017</text>
 <rectangle x1="246.491125" y1="-71.963915625" x2="263.10653125" y2="-71.955028125" layer="94"/>
 <rectangle x1="264.155553125" y1="-71.963915625" x2="266.511403125" y2="-71.955028125" layer="94"/>
 <text x="147.955" y="-22.86" size="1.778" layer="95">H2</text>
-<text x="215.9" y="-92.71" size="2.54" layer="95">201720</text>
+<text x="215.9" y="-92.71" size="2.54" layer="95">2017020</text>
 </plain>
 <instances>
 <instance part="H2" gate="G$1" x="142.875" y="-20.32" smashed="yes" rot="R270"/>
