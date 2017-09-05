@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -318,7 +318,7 @@ DIN A4, landscape with extra doc field</description>
 <text x="158.75" y="121.285" size="1.778" layer="95">SIG</text>
 <text x="158.75" y="118.745" size="1.778" layer="95">GND</text>
 <text x="158.75" y="116.205" size="1.778" layer="95">VCC</text>
-<text x="177.8" y="19.05" size="2.54" layer="95">Nu Multi Channel Output Base</text>
+<text x="177.8" y="19.05" size="2.54" layer="95">Nu Multi Output Board</text>
 <wire x1="193.602721875" y1="25.186403125" x2="178.51975" y2="25.186403125" width="0" layer="94"/>
 <wire x1="178.51975" y1="25.186403125" x2="177.81660625" y2="25.228778125" width="0" layer="94"/>
 <wire x1="177.81660625" y1="25.228778125" x2="177.23541875" y2="25.31249375" width="0" layer="94"/>
