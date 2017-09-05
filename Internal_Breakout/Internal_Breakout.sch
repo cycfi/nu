@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6442,7 +6442,7 @@ http://www.micrel.com&lt;p&gt;
 <wire x1="138.1125" y1="157.1625" x2="139.7" y2="158.75" width="0.254" layer="95"/>
 <wire x1="139.7" y1="158.75" x2="138.1125" y2="160.3375" width="0.254" layer="95"/>
 <wire x1="138.1125" y1="160.3375" x2="132.08" y2="160.3375" width="0.254" layer="95"/>
-<text x="7.62" y="7.62" size="2.54" layer="95">Internal Breakout Project by Cycfi Research is licensed under a 
+<text x="7.62" y="7.62" size="2.54" layer="95">Internal Breakout for Nu Project by Cycfi Research is licensed under a 
 Creative Commons Attribution-ShareAlike 4.0 International License. 
 
 Copyright CYCFI Research Inc. 2013-2017</text>

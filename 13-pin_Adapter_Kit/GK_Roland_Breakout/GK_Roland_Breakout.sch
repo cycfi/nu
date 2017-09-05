@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8300,7 +8300,7 @@ Source: www.kingbright.com</description>
 <sheets>
 <sheet>
 <plain>
-<text x="13.97" y="8.89" size="2.54" layer="95">GK Internal Breakout for Nexus Project by Cycfi Research is licensed under 
+<text x="13.97" y="8.89" size="2.54" layer="95">GK Roland Breakout for Nu Project by Cycfi Research is licensed under 
 a Creative Commons Attribution-ShareAlike 4.0 International License.
 
 Copyright CYCFI Research Inc. 2013-2017</text>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -450,7 +450,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <sheets>
 <sheet>
 <plain>
-<text x="22.86" y="8.89" size="2.54" layer="95">13P Connector board for Nexus Project by Cycfi Research is licensed under 
+<text x="22.86" y="8.89" size="2.54" layer="95">13P Connector Board for Nu Project by Cycfi Research is licensed under 
 a Creative Commons Attribution-ShareAlike 4.0 International License.
 
 Copyright CYCFI Research Inc. 2013-2017</text>

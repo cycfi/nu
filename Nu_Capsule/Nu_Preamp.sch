@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -6083,9 +6083,9 @@ DIN A4, landscape with extra doc field</description>
 <plain>
 <text x="193.04" y="96.8375" size="1.778" layer="95">GND(V-)</text>
 <text x="193.04" y="99.695" size="1.778" layer="95">OUT(O)</text>
-<text x="177.8" y="19.05" size="2.54" layer="95">Nu Capsule</text>
+<text x="177.8" y="19.05" size="2.54" layer="95">Nu Preamp</text>
 <text x="253.365" y="6.985" size="2.1844" layer="95">v1.5</text>
-<text x="12.7" y="12.7" size="2.54" layer="95">Nu Preamp Project by Cycfi Research is licensed under a 
+<text x="12.7" y="12.7" size="2.54" layer="95">Nu Preamp for Nu Project by Cycfi Research is licensed under a 
 Creative Commons Attribution-ShareAlike 4.0 International License. 
 
 Copyright CYCFI Research Inc. 2013-2017</text>

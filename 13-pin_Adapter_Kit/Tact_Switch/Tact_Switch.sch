@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -346,10 +346,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <sheets>
 <sheet>
 <plain>
-<text x="15.24" y="11.43" size="3.048" layer="95">Tact Switch Project by Cycfi Research is licensed under a Creative 
+<text x="5.08" y="8.89" size="3.048" layer="95">Tact Switch for Nu Project by Cycfi Research is licensed under a Creative 
 Commons Attribution-ShareAlike 4.0 International License.
 
-Copyright CYCFI Research Inc. 2013-2016</text>
+Copyright CYCFI Research Inc. 2013-2017</text>
 <text x="162.56" y="19.05" size="2.54" layer="95">Tact Switch</text>
 <wire x1="178.362721875" y1="25.186403125" x2="163.27975" y2="25.186403125" width="0" layer="94"/>
 <wire x1="163.27975" y1="25.186403125" x2="162.57660625" y2="25.228778125" width="0" layer="94"/>
