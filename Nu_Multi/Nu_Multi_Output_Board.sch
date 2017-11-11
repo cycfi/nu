@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -318,7 +318,7 @@ DIN A4, landscape with extra doc field</description>
 <text x="158.75" y="121.285" size="1.778" layer="95">SIG</text>
 <text x="158.75" y="118.745" size="1.778" layer="95">GND</text>
 <text x="158.75" y="116.205" size="1.778" layer="95">VCC</text>
-<text x="177.8" y="19.05" size="2.54" layer="95">Nu Multi Channel Output Base</text>
+<text x="177.8" y="19.05" size="2.54" layer="95">Nu Multi Output Board</text>
 <wire x1="193.602721875" y1="25.186403125" x2="178.51975" y2="25.186403125" width="0" layer="94"/>
 <wire x1="178.51975" y1="25.186403125" x2="177.81660625" y2="25.228778125" width="0" layer="94"/>
 <wire x1="177.81660625" y1="25.228778125" x2="177.23541875" y2="25.31249375" width="0" layer="94"/>
@@ -469,9 +469,9 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="235.93605625" y1="27.852909375" x2="235.93605625" y2="25.186403125" width="0" layer="94"/>
 <wire x1="235.93605625" y1="25.186403125" x2="233.45903125" y2="25.186403125" width="0" layer="94"/>
 <wire x1="233.45903125" y1="25.186403125" x2="233.45903125" y2="33.142509375" width="0" layer="94"/>
-<text x="254" y="6.985" size="2.1844" layer="95">v1.0</text>
-<text x="12.7" y="12.7" size="2.794" layer="95">Nu Multi Project by Cycfi Research is licensed under a 
-Creative Commons Attribution-ShareAlike 4.0 International License. 
+<text x="254" y="6.985" size="2.54" layer="95">v1.0</text>
+<text x="12.7" y="12.7" size="2.54" layer="95">Nu Multi Project by Cycfi Research is licensed under a  Creative Commons Attribution-ShareAlike
+4.0 International License. 
 
 Copyright CYCFI Research Inc. 2013-2017</text>
 <text x="104.14" y="139.7" size="1.778" layer="95">INPUT
@@ -507,7 +507,7 @@ to Internal Breakout</text>
 <text x="149.225" y="81.915" size="1.778" layer="95">CH5-CH8</text>
 <text x="114.3" y="52.07" size="1.778" layer="95">NOTES:
 *A,B,C = 1x7 FPC Connectors</text>
-<text x="200.66" y="11.43" size="2.54" layer="95">201721</text>
+<text x="200.66" y="11.43" size="2.54" layer="95">2017021</text>
 </plain>
 <instances>
 <instance part="H2" gate="G$1" x="113.03" y="71.12" smashed="yes" rot="MR180">
