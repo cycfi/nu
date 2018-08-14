@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -13691,6 +13691,7 @@ Copyright CYCFI Research Inc. 2013-2018</text>
 <text x="22.86" y="86.36" size="1.778" layer="95">IN-</text>
 <wire x1="18.415" y1="94.615" x2="23.495" y2="94.615" width="0.1524" layer="94"/>
 <wire x1="18.415" y1="89.535" x2="23.495" y2="89.535" width="0.1524" layer="94"/>
+<text x="200.025" y="11.43" size="2.54" layer="95">2018004</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
