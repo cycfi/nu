@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Internal_Breakout-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -7,7 +8,7 @@ Sheet 1 1
 Title "Internal Breakout"
 Date "2018-04-13"
 Rev "v1.4"
-Comp "Document Number: 2018006"
+Comp "Document Number: 2018007"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -41,7 +42,7 @@ U 1 1 5AAFB1E1
 P 6900 1100
 F 0 "C3" H 6925 1200 50  0000 L CNN
 F 1 "2.2uF" H 6925 1000 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6938 950 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6938 950 50  0001 C CNN
 F 3 "" H 6900 1100 50  0001 C CNN
 	1    6900 1100
 	1    0    0    -1  
@@ -63,7 +64,7 @@ U 1 1 5AAFB285
 P 7600 1100
 F 0 "C5" H 7625 1200 50  0000 L CNN
 F 1 "1uF" H 7625 1000 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7638 950 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7638 950 50  0001 C CNN
 F 3 "" H 7600 1100 50  0001 C CNN
 	1    7600 1100
 	1    0    0    -1  
@@ -74,7 +75,7 @@ U 1 1 5AAFB2AB
 P 7900 1100
 F 0 "C6" H 7925 1200 50  0000 L CNN
 F 1 "10uF" H 7925 1000 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7938 950 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7938 950 50  0001 C CNN
 F 3 "" H 7900 1100 50  0001 C CNN
 	1    7900 1100
 	1    0    0    -1  
@@ -96,7 +97,7 @@ U 1 1 5AAFB39C
 P 4400 1100
 F 0 "C1" H 4425 1200 50  0000 L CNN
 F 1 "1uF" H 4425 1000 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4438 950 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4438 950 50  0001 C CNN
 F 3 "" H 4400 1100 50  0001 C CNN
 	1    4400 1100
 	1    0    0    -1  
@@ -198,11 +199,11 @@ Text Notes 2325 4535 0    60   ~ 0
 NC
 Text Notes 9040 4575 0    60   ~ 0
 GND
-Text Notes 9040 4480 0    60   ~ 0
+Text Notes 9025 3370 0    60   ~ 0
 GND
-Text Notes 9020 4260 0    60   ~ 0
+Text Notes 9015 4370 0    60   ~ 0
 +VDC_IN
-Text Notes 9020 4370 0    60   ~ 0
+Text Notes 9015 4475 0    60   ~ 0
 +VDC_IN
 Text Notes 9020 2585 0    60   ~ 0
 CH2
@@ -220,19 +221,19 @@ Text Notes 9025 3175 0    60   ~ 0
 CH8
 Text Notes 9025 3080 0    60   ~ 0
 CH7
-Text Notes 9025 3370 0    60   ~ 0
+Text Notes 9035 3760 0    60   ~ 0
 CH10
 Text Notes 9030 3270 0    60   ~ 0
 CH9
-Text Notes 9030 3865 0    60   ~ 0
+Text Notes 9030 3975 0    60   ~ 0
 CH12
-Text Notes 9030 3765 0    60   ~ 0
+Text Notes 9030 3865 0    60   ~ 0
 CH11
-Text Notes 9030 4070 0    60   ~ 0
+Text Notes 9030 4175 0    60   ~ 0
 CH14
-Text Notes 9030 3970 0    60   ~ 0
+Text Notes 9030 4070 0    60   ~ 0
 CH13
-Text Notes 9025 4165 0    60   ~ 0
+Text Notes 9025 4275 0    60   ~ 0
 CH15
 NoConn ~ 2740 4495
 $Comp
@@ -312,7 +313,7 @@ F 3 "" H 8930 5055 50  0001 C CNN
 	1    8930 5055
 	-1   0    0    -1  
 $EndComp
-Text GLabel 8610 4230 0    60   Input ~ 0
+Text GLabel 8600 4330 0    60   Input ~ 0
 +VDC_IN
 $Comp
 L power:GND #PWR02
@@ -381,102 +382,6 @@ Text GLabel 2880 3230 2    60   Input ~ 0
 CH7
 Text GLabel 2880 3330 2    60   Input ~ 0
 CH8
-Wire Wire Line
-	3150 850  3550 850 
-Connection ~ 4400 1950
-Wire Wire Line
-	3750 1150 3750 1950
-Connection ~ 4400 850 
-Connection ~ 7900 850 
-Connection ~ 6900 1950
-Wire Wire Line
-	6900 1950 6900 1250
-Connection ~ 7250 1950
-Wire Wire Line
-	7250 1950 7250 1250
-Connection ~ 7600 1950
-Wire Wire Line
-	7600 1950 7600 1250
-Wire Wire Line
-	7900 1950 7900 1250
-Connection ~ 6900 850 
-Wire Wire Line
-	6900 950  6900 850 
-Connection ~ 7250 850 
-Wire Wire Line
-	7250 850  7250 950 
-Connection ~ 7600 850 
-Wire Wire Line
-	7600 850  7600 950 
-Wire Wire Line
-	6700 850  6900 850 
-Wire Wire Line
-	7900 850  7900 950 
-Connection ~ 5000 1950
-Wire Wire Line
-	5000 1950 5000 1750
-Connection ~ 5900 1950
-Wire Wire Line
-	3750 1950 4400 1950
-Wire Wire Line
-	4400 1250 4400 1950
-Wire Wire Line
-	5000 1350 5000 1450
-Wire Wire Line
-	5100 1350 5000 1350
-Connection ~ 5000 850 
-Wire Wire Line
-	5000 850  5000 1050
-Wire Wire Line
-	5000 1050 5100 1050
-Wire Wire Line
-	4400 850  4400 950 
-Wire Wire Line
-	3950 850  4400 850 
-Wire Wire Line
-	5900 1850 5900 1950
-Wire Wire Line
-	2880 2430 2740 2430
-Wire Wire Line
-	2885 3600 2740 3600
-Wire Wire Line
-	3325 2535 3325 2530
-Wire Wire Line
-	3325 2530 2740 2530
-Wire Wire Line
-	2740 3700 3300 3700
-Wire Wire Line
-	3300 3700 3300 3705
-Wire Wire Line
-	2685 5175 2765 5175
-Wire Wire Line
-	2685 5750 2765 5750
-Wire Wire Line
-	4510 5195 4595 5195
-Wire Wire Line
-	4500 5780 4575 5780
-Wire Wire Line
-	7415 5220 7505 5220
-Wire Wire Line
-	7405 5845 7510 5845
-Wire Wire Line
-	9130 5155 9230 5155
-Wire Wire Line
-	2880 2630 2740 2630
-Wire Wire Line
-	2740 2730 2880 2730
-Wire Wire Line
-	2740 2830 2880 2830
-Wire Wire Line
-	2740 2930 2880 2930
-Wire Wire Line
-	2740 3030 2880 3030
-Wire Wire Line
-	2740 3130 2880 3130
-Wire Wire Line
-	2740 3230 2880 3230
-Wire Wire Line
-	2740 3330 2880 3330
 Text GLabel 2880 3800 2    60   Input ~ 0
 CH9
 Text GLabel 2880 3900 2    60   Input ~ 0
@@ -485,42 +390,20 @@ Text GLabel 2880 4000 2    60   Input ~ 0
 CH11
 Text GLabel 2880 4100 2    60   Input ~ 0
 CH12
-Wire Wire Line
-	2740 3800 2880 3800
-Wire Wire Line
-	2740 3900 2880 3900
-Wire Wire Line
-	2740 4000 2880 4000
-Wire Wire Line
-	2740 4100 2880 4100
 Text GLabel 2765 4975 2    60   Input ~ 0
 CH9
-Wire Wire Line
-	2685 4975 2765 4975
 Text GLabel 2755 5550 2    60   Input ~ 0
 CH10
-Wire Wire Line
-	2685 5550 2755 5550
 Text GLabel 4590 4995 2    60   Input ~ 0
 CH11
-Wire Wire Line
-	4510 4995 4590 4995
 Text GLabel 4575 5580 2    60   Input ~ 0
 CH12
-Wire Wire Line
-	4500 5580 4575 5580
 Text GLabel 7505 5020 2    60   Input ~ 0
 CH13
-Wire Wire Line
-	7415 5020 7505 5020
 Text GLabel 7515 5645 2    60   Input ~ 0
 CH14
-Wire Wire Line
-	7405 5645 7515 5645
 Text GLabel 9230 4955 2    60   Input ~ 0
 CH15
-Wire Wire Line
-	9130 4955 9230 4955
 $Comp
 L power:GND #PWR05
 U 1 1 5AE90DF8
@@ -532,10 +415,6 @@ F 3 "" H 3265 5085 50  0001 C CNN
 	1    3265 5085
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2685 5075 3265 5075
-Wire Wire Line
-	3265 5075 3265 5085
 $Comp
 L power:GND #PWR06
 U 1 1 5AE91713
@@ -547,10 +426,6 @@ F 3 "" H 3270 5660 50  0001 C CNN
 	1    3270 5660
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2685 5650 3270 5650
-Wire Wire Line
-	3270 5650 3270 5660
 $Comp
 L power:GND #PWR07
 U 1 1 5AE91EB4
@@ -562,10 +437,6 @@ F 3 "" H 5090 5125 50  0001 C CNN
 	1    5090 5125
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4510 5095 5090 5095
-Wire Wire Line
-	5090 5095 5090 5125
 $Comp
 L power:GND #PWR08
 U 1 1 5AE924B6
@@ -577,10 +448,6 @@ F 3 "" H 5085 5730 50  0001 C CNN
 	1    5085 5730
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4500 5680 5085 5680
-Wire Wire Line
-	5085 5680 5085 5730
 $Comp
 L power:GND #PWR09
 U 1 1 5AE92E33
@@ -592,10 +459,6 @@ F 3 "" H 7965 5145 50  0001 C CNN
 	1    7965 5145
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7415 5120 7965 5120
-Wire Wire Line
-	7965 5120 7965 5145
 $Comp
 L power:GND #PWR010
 U 1 1 5AE93518
@@ -607,10 +470,6 @@ F 3 "" H 7970 5765 50  0001 C CNN
 	1    7970 5765
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7405 5745 7970 5745
-Wire Wire Line
-	7970 5745 7970 5765
 $Comp
 L power:GND #PWR011
 U 1 1 5AE93D34
@@ -622,10 +481,6 @@ F 3 "" H 9700 5090 50  0001 C CNN
 	1    9700 5090
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9130 5055 9700 5055
-Wire Wire Line
-	9700 5055 9700 5090
 Text GLabel 8585 2440 0    60   Input ~ 0
 CH1
 Text GLabel 8585 2540 0    60   Input ~ 0
@@ -642,19 +497,19 @@ Text GLabel 8585 3140 0    60   Input ~ 0
 CH8
 Text GLabel 8585 3040 0    60   Input ~ 0
 CH7
-Text GLabel 8590 3340 0    60   Input ~ 0
+Text GLabel 8600 3730 0    60   Input ~ 0
 CH10
 Text GLabel 8585 3240 0    60   Input ~ 0
 CH9
-Text GLabel 8600 3730 0    60   Input ~ 0
-CH11
 Text GLabel 8600 3830 0    60   Input ~ 0
-CH12
+CH11
 Text GLabel 8600 3930 0    60   Input ~ 0
-CH13
+CH12
 Text GLabel 8600 4030 0    60   Input ~ 0
-CH14
+CH13
 Text GLabel 8600 4130 0    60   Input ~ 0
+CH14
+Text GLabel 8600 4230 0    60   Input ~ 0
 CH15
 Text Notes 2205 5015 0    60   ~ 0
 CH9
@@ -766,6 +621,181 @@ F 3 "" H 5035 6660 50  0001 C CNN
 	1    5035 6660
 	1    0    0    -1  
 $EndComp
+Text Notes 1365 6865 1    60   ~ 0
+SUPPLY EXTENSIONS
+Text Notes 9040 4665 0    60   ~ 0
+SHIELD_GND
+Text GLabel 2880 4200 2    60   Input ~ 0
+CH13
+Text GLabel 2880 4300 2    60   Input ~ 0
+CH14
+Text GLabel 2880 4400 2    60   Input ~ 0
+CH15
+Text Notes 2215 4240 0    60   ~ 0
+CH13
+Text Notes 2215 4330 0    60   ~ 0
+CH14
+Text Notes 2220 4430 0    60   ~ 0
+CH15
+Text Notes 4060 7325 0    60   ~ 0
++VDC_IN = 12 - 15 VDC
+$Comp
+L power:GND #PWR014
+U 1 1 5B56DAAB
+P 8335 3400
+F 0 "#PWR014" H 8335 3150 50  0001 C CNN
+F 1 "GND" H 8335 3250 50  0000 C CNN
+F 2 "" H 8335 3400 50  0001 C CNN
+F 3 "" H 8335 3400 50  0001 C CNN
+	1    8335 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 850  3550 850 
+Connection ~ 4400 1950
+Wire Wire Line
+	3750 1150 3750 1950
+Connection ~ 4400 850 
+Connection ~ 7900 850 
+Connection ~ 6900 1950
+Wire Wire Line
+	6900 1950 6900 1250
+Connection ~ 7250 1950
+Wire Wire Line
+	7250 1950 7250 1250
+Connection ~ 7600 1950
+Wire Wire Line
+	7600 1950 7600 1250
+Wire Wire Line
+	7900 1950 7900 1250
+Connection ~ 6900 850 
+Wire Wire Line
+	6900 950  6900 850 
+Connection ~ 7250 850 
+Wire Wire Line
+	7250 850  7250 950 
+Connection ~ 7600 850 
+Wire Wire Line
+	7600 850  7600 950 
+Wire Wire Line
+	6700 850  6900 850 
+Wire Wire Line
+	7900 850  7900 950 
+Connection ~ 5000 1950
+Wire Wire Line
+	5000 1950 5000 1750
+Connection ~ 5900 1950
+Wire Wire Line
+	3750 1950 4400 1950
+Wire Wire Line
+	4400 1250 4400 1950
+Wire Wire Line
+	5000 1350 5000 1450
+Wire Wire Line
+	5100 1350 5000 1350
+Connection ~ 5000 850 
+Wire Wire Line
+	5000 850  5000 1050
+Wire Wire Line
+	5000 1050 5100 1050
+Wire Wire Line
+	4400 850  4400 950 
+Wire Wire Line
+	3950 850  4400 850 
+Wire Wire Line
+	5900 1850 5900 1950
+Wire Wire Line
+	2880 2430 2740 2430
+Wire Wire Line
+	2885 3600 2740 3600
+Wire Wire Line
+	3325 2535 3325 2530
+Wire Wire Line
+	3325 2530 2740 2530
+Wire Wire Line
+	2740 3700 3300 3700
+Wire Wire Line
+	3300 3700 3300 3705
+Wire Wire Line
+	2685 5175 2765 5175
+Wire Wire Line
+	2685 5750 2765 5750
+Wire Wire Line
+	4510 5195 4595 5195
+Wire Wire Line
+	4500 5780 4575 5780
+Wire Wire Line
+	7415 5220 7505 5220
+Wire Wire Line
+	7405 5845 7510 5845
+Wire Wire Line
+	9130 5155 9230 5155
+Wire Wire Line
+	2880 2630 2740 2630
+Wire Wire Line
+	2740 2730 2880 2730
+Wire Wire Line
+	2740 2830 2880 2830
+Wire Wire Line
+	2740 2930 2880 2930
+Wire Wire Line
+	2740 3030 2880 3030
+Wire Wire Line
+	2740 3130 2880 3130
+Wire Wire Line
+	2740 3230 2880 3230
+Wire Wire Line
+	2740 3330 2880 3330
+Wire Wire Line
+	2740 3800 2880 3800
+Wire Wire Line
+	2740 3900 2880 3900
+Wire Wire Line
+	2740 4000 2880 4000
+Wire Wire Line
+	2740 4100 2880 4100
+Wire Wire Line
+	2685 4975 2765 4975
+Wire Wire Line
+	2685 5550 2755 5550
+Wire Wire Line
+	4510 4995 4590 4995
+Wire Wire Line
+	4500 5580 4575 5580
+Wire Wire Line
+	7415 5020 7505 5020
+Wire Wire Line
+	7405 5645 7515 5645
+Wire Wire Line
+	9130 4955 9230 4955
+Wire Wire Line
+	2685 5075 3265 5075
+Wire Wire Line
+	3265 5075 3265 5085
+Wire Wire Line
+	2685 5650 3270 5650
+Wire Wire Line
+	3270 5650 3270 5660
+Wire Wire Line
+	4510 5095 5090 5095
+Wire Wire Line
+	5090 5095 5090 5125
+Wire Wire Line
+	4500 5680 5085 5680
+Wire Wire Line
+	5085 5680 5085 5730
+Wire Wire Line
+	7415 5120 7965 5120
+Wire Wire Line
+	7965 5120 7965 5145
+Wire Wire Line
+	7405 5745 7970 5745
+Wire Wire Line
+	7970 5745 7970 5765
+Wire Wire Line
+	9130 5055 9700 5055
+Wire Wire Line
+	9700 5055 9700 5090
 Wire Wire Line
 	2685 6475 2800 6475
 Wire Wire Line
@@ -788,10 +818,6 @@ Wire Wire Line
 Wire Wire Line
 	4610 6525 4610 6625
 Connection ~ 4610 6625
-Text Notes 1365 6865 1    60   ~ 0
-SUPPLY EXTENSIONS
-Text Notes 9040 4665 0    60   ~ 0
-SHIELD_GND
 Wire Wire Line
 	8725 2440 8585 2440
 Wire Wire Line
@@ -811,9 +837,26 @@ Wire Wire Line
 Wire Wire Line
 	8585 3240 8725 3240
 Wire Wire Line
-	8590 3340 8725 3340
+	8335 4665 8335 4630
 Wire Wire Line
-	8735 3730 8600 3730
+	8335 4630 8660 4630
+Wire Wire Line
+	2740 4200 2880 4200
+Wire Wire Line
+	2740 4300 2880 4300
+Wire Wire Line
+	2740 4400 2880 4400
+Wire Wire Line
+	8735 4530 8660 4530
+Wire Wire Line
+	8660 4530 8660 4630
+Connection ~ 8660 4630
+Wire Wire Line
+	8335 3400 8335 3340
+Wire Wire Line
+	8335 3340 8725 3340
+Wire Wire Line
+	8600 3730 8735 3730
 Wire Wire Line
 	8600 3830 8735 3830
 Wire Wire Line
@@ -823,44 +866,14 @@ Wire Wire Line
 Wire Wire Line
 	8600 4130 8735 4130
 Wire Wire Line
-	8735 4230 8670 4230
+	8600 4230 8735 4230
 Wire Wire Line
-	8735 4330 8670 4330
-Wire Wire Line
-	8670 4330 8670 4230
-Connection ~ 8670 4230
-Wire Wire Line
-	8335 4665 8335 4630
-Wire Wire Line
-	8335 4630 8665 4630
-Wire Wire Line
-	8735 4530 8665 4530
-Wire Wire Line
-	8665 4430 8665 4530
-Connection ~ 8665 4630
+	8600 4330 8665 4330
 Wire Wire Line
 	8735 4430 8665 4430
-Connection ~ 8665 4530
-Text GLabel 2880 4200 2    60   Input ~ 0
-CH13
-Text GLabel 2880 4300 2    60   Input ~ 0
-CH14
-Text GLabel 2880 4400 2    60   Input ~ 0
-CH15
 Wire Wire Line
-	2740 4200 2880 4200
-Wire Wire Line
-	2740 4300 2880 4300
-Wire Wire Line
-	2740 4400 2880 4400
-Text Notes 2215 4240 0    60   ~ 0
-CH13
-Text Notes 2215 4330 0    60   ~ 0
-CH14
-Text Notes 2220 4430 0    60   ~ 0
-CH15
-Text Notes 4060 7325 0    60   ~ 0
-+VDC_IN = 12 - 15 VDC
+	8665 4430 8665 4330
+Connection ~ 8665 4330
 Wire Wire Line
 	4400 1950 5000 1950
 Wire Wire Line
@@ -892,9 +905,7 @@ Wire Wire Line
 Wire Wire Line
 	4610 6625 5035 6625
 Wire Wire Line
-	8670 4230 8610 4230
+	8660 4630 8735 4630
 Wire Wire Line
-	8665 4630 8735 4630
-Wire Wire Line
-	8665 4530 8665 4630
+	8665 4330 8735 4330
 $EndSCHEMATC
