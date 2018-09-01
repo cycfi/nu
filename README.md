@@ -1,25 +1,12 @@
-The Nu Series Modular Active Pickups are hacker friendly, general purpose pickups 
-that can be used in a variety of applications. These are active multichannel 
-pickups with low impedance coils and integrated single-ended, low-power, 
-low-noise preamplifier for each coil. The Neodymium-core pickups are low profile 
-and modular. They can be used individually or in groups.
+The Nu Series Modular Active Pickups are hacker friendly, general purpose pickups that can be used in a variety of applications. These are active pickups utilizing low impedance coils, permalloy ring shields to minimize crosstalk, and an integrated differential, low-power, low-noise preamplifier for each coil. These small pickups are modular and can be used individually or in groups.
 
-This is the next evolutionary stage of our flagship multichannel Neo pickup. The 
-Nu sports better crosstalk performance using permalloy ring shields and even 
-lower noise with improved discrete preamp design. Most importantly, they sound 
-just as good as the original. Same coil, same magnetic structure.
+The pickups are designed for multichannel processing — one for each string (distortion, EQ, compressor, delay, pan, pitch-shift, etc). Such extensive processing is now possible due to advances in digital signal processing and the proliferation of multi-channel audio interfaces and multi-track audio software.
 
-The pickups are designed for polyphonic effects processing —one for each string 
-(distortion, EQ, compressor, delay, pan, pitch-shift, etc). Such extensive 
-processing is now very possible due to advances in digital signal processing and 
-multi-channel audio interfaces and multi-track audio software becoming commonplace.
+These modular pickups are not just for guitars. Nus are also successfully utilized in other musical instruments such as the bass guitar, cellos, harps, pianos, xylophones, etc.
 
-The modular pickups are not just for guitars. Nus can also be utilized for other 
-musical instruments such as the bass guitar, harps, pianos, xylophones, etc. The 
-Nus are perfect for fanned-fret electric guitars with the pickup poles positioned 
-at various angles. 
+Hardware design files licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+https://creativecommons.org/licenses/by-sa/4.0/
 
-This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 
-International License](http://creativecommons.org/licenses/by-nc/4.0/).
+Software source code distributed under the MIT License.
+https://opensource.org/licenses/MIT
 
-http://www.cycfi.com/
