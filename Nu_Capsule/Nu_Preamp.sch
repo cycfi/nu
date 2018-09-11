@@ -11462,18 +11462,18 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
 <part name="D1" library="m-pad-2.1" deviceset="D_SCHOTTKY" device="L"/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF, 25V"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF"/>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
 <part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="supply2" deviceset="GND" device=""/>
 <part name="U1" library="CYCFI_semicon" deviceset="TLV170" device="" value="TLV170"/>
-<part name="C3" library="rcl" deviceset="C0603_NK" device="" value="10uF, 25V"/>
+<part name="C3" library="rcl" deviceset="C0603_NK" device="" value="10uF"/>
 <part name="H2" library="CYCFI_Con" deviceset="3P-2MM-TH-MALE" device=""/>
 <part name="H1" library="CYCFI_Con" deviceset="2P-2MM-TH-MALE" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
-<part name="C2" library="rcl" deviceset="C0603_NK" device="" value="4.7uF, 25V"/>
+<part name="C2" library="rcl" deviceset="C0603_NK" device="" value="4.7uF"/>
 <part name="IN+" library="wirepad" deviceset="SMD2" device=""/>
 <part name="IN-" library="wirepad" deviceset="SMD2" device=""/>
 <part name="GND" library="wirepad" deviceset="SMD2" device=""/>
@@ -13753,15 +13753,15 @@ Copyright CYCFI Research Inc. 2013-2018</text>
 <attribute name="VALUE" x="64.135" y="125.857" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R10" gate="G$1" x="53.34" y="78.105" smashed="yes" rot="R90">
-<attribute name="NAME" x="50.8" y="79.1464" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="50.8" y="84.2264" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="50.8" y="75.057" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R11" gate="G$1" x="66.04" y="78.105" smashed="yes" rot="R90">
-<attribute name="NAME" x="73.025" y="79.1464" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="73.025" y="84.2264" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="73.66" y="75.057" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R12" gate="G$1" x="59.055" y="62.23" smashed="yes" rot="R90">
-<attribute name="NAME" x="55.88" y="64.5414" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="55.88" y="67.0814" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="55.245" y="60.452" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R13" gate="G$1" x="39.37" y="128.27" smashed="yes" rot="R90">
@@ -13769,7 +13769,7 @@ Copyright CYCFI Research Inc. 2013-2018</text>
 <attribute name="VALUE" x="38.1" y="125.857" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R14" gate="G$1" x="39.37" y="78.105" smashed="yes" rot="R90">
-<attribute name="NAME" x="37.465" y="79.1464" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="37.465" y="84.2264" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="36.83" y="74.422" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R15" gate="G$1" x="81.28" y="128.27" smashed="yes" rot="R90">
@@ -13777,7 +13777,7 @@ Copyright CYCFI Research Inc. 2013-2018</text>
 <attribute name="VALUE" x="80.01" y="126.492" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R16" gate="G$1" x="81.28" y="78.105" smashed="yes" rot="R90">
-<attribute name="NAME" x="88.265" y="79.1464" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="88.265" y="84.2264" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="87.63" y="75.057" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY7" gate="GND" x="39.37" y="52.705"/>
@@ -13797,8 +13797,8 @@ Copyright CYCFI Research Inc. 2013-2018</text>
 <attribute name="VALUE" x="200.406" y="144.145" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C1" gate="G$1" x="118.745" y="134.62" smashed="yes">
-<attribute name="NAME" x="113.284" y="135.001" size="1.778" layer="95"/>
-<attribute name="VALUE" x="111.379" y="130.556" size="1.778" layer="96"/>
+<attribute name="NAME" x="112.776" y="136.525" size="1.778" layer="95"/>
+<attribute name="VALUE" x="110.871" y="129.286" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY11" gate="GND" x="102.87" y="123.19"/>
 <instance part="SUPPLY12" gate="GND" x="118.745" y="123.19"/>
@@ -13814,7 +13814,7 @@ Copyright CYCFI Research Inc. 2013-2018</text>
 <instance part="U1" gate="G$2" x="172.085" y="100.965" smashed="yes"/>
 <instance part="C3" gate="G$1" x="198.755" y="100.965" smashed="yes" rot="R90">
 <attribute name="NAME" x="197.231" y="105.664" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="206.375" y="100.076" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="208.915" y="105.664" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="H2" gate="G$1" x="247.015" y="137.16" smashed="yes" rot="R180">
 <attribute name="NAME" x="244.475" y="142.875" size="1.778" layer="95"/>
@@ -13825,7 +13825,7 @@ Copyright CYCFI Research Inc. 2013-2018</text>
 <instance part="SUPPLY1" gate="GND" x="236.855" y="91.44"/>
 <instance part="C2" gate="G$1" x="102.87" y="132.08" smashed="yes" rot="R180">
 <attribute name="NAME" x="98.171" y="136.906" size="1.778" layer="95"/>
-<attribute name="VALUE" x="95.504" y="129.54" size="1.778" layer="96"/>
+<attribute name="VALUE" x="94.996" y="129.54" size="1.778" layer="96"/>
 </instance>
 <instance part="IN+" gate="1" x="25.4" y="170.18" smashed="yes">
 <attribute name="NAME" x="19.177" y="169.4942" size="1.778" layer="95"/>

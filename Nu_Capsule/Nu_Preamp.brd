@@ -4341,7 +4341,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="5.09375" y="13.24725" size="0.65" layer="26" font="vector" ratio="13" rot="MR0"/>
 <attribute name="VALUE" x="6.44575" y="12.65075" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="C1" library="rcl" package="C0402" value="0.1uF, 25V" x="5.07" y="7.29" smashed="yes">
+<element name="C1" library="rcl" package="C0402" value="0.1uF" x="5.07" y="7.29" smashed="yes">
 <attribute name="NAME" x="5.2785" y="6.14025" size="0.65" layer="25" font="vector" ratio="13"/>
 <attribute name="VALUE" x="4.435" y="5.385" size="0.65" layer="27"/>
 </element>
@@ -4350,13 +4350,13 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="3.135" y="0.58" size="0.65" layer="28" rot="MR0"/>
 </element>
 <element name="U1" library="CYCFI_semicon" package="SOT23-5" value="TLV170" x="5.695" y="4.66" smashed="yes"/>
-<element name="C3" library="rcl" package="C0603_NK" value="10uF, 25V" x="2.495" y="2.01" smashed="yes">
+<element name="C3" library="rcl" package="C0603_NK" value="10uF" x="2.495" y="2.01" smashed="yes">
 <attribute name="NAME" x="1.905" y="0.6075" size="0.65" layer="25" font="vector" ratio="13"/>
 <attribute name="VALUE" x="1.86" y="0.105" size="0.65" layer="27"/>
 </element>
 <element name="H2" library="CYCFI_Con" package="3P-2MM-TH" value="3P-2MM-TH-MALE" x="4.9875" y="16.315" smashed="yes" rot="R180"/>
 <element name="H1" library="CYCFI_Con" package="2P-2MM-TH" value="2P-2MM-TH-MALE" x="5.98" y="1.6125" smashed="yes"/>
-<element name="C2" library="rcl" package="C0603_NK" value="4.7uF, 25V" x="3.4025" y="4.6025" smashed="yes" rot="R90">
+<element name="C2" library="rcl" package="C0603_NK" value="4.7uF" x="3.4025" y="4.6025" smashed="yes" rot="R90">
 <attribute name="NAME" x="4.03025" y="3.1695" size="0.65" layer="25" font="vector" ratio="13" rot="R180"/>
 <attribute name="VALUE" x="5.3075" y="3.9675" size="0.65" layer="27" rot="R90"/>
 </element>
