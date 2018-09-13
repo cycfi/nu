@@ -23545,7 +23545,7 @@
 <text x="28.2" y="33.45" size="0.8" layer="25" font="vector">CH11</text>
 <text x="17.6" y="24.65" size="0.8" layer="25" font="vector">CH10</text>
 <text x="28.25" y="24.55" size="0.8" layer="25" font="vector">CH12</text>
-<text x="41.75" y="33.4" size="0.8" layer="25" font="vector">IN</text>
+<text x="41.7" y="33.3" size="0.8" layer="25" font="vector">IN</text>
 </plain>
 <libraries>
 <library name="transistor-power" urn="urn:adsk.eagle:library:400">
