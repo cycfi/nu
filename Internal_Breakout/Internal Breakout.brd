@@ -17378,8 +17378,8 @@
 <text x="15.1" y="33.45" size="0.8" layer="25" font="vector">GND</text>
 <wire x1="15.126" y1="33.4169" x2="15.012" y2="33.455" width="0.001" layer="125"/>
 <wire x1="15.106" y1="33.2493" x2="15.1" y2="33.2592" width="0.001" layer="125"/>
-<text x="25.9" y="33.45" size="0.8" layer="25" font="vector">GND</text>
-<text x="38.9" y="33.4" size="0.8" layer="25" font="vector">GND</text>
+<text x="25.8" y="33.45" size="0.8" layer="25" font="vector">GND</text>
+<text x="38.8" y="33.3" size="0.8" layer="25" font="vector">GND</text>
 <text x="45.1" y="16.1" size="0.8" layer="25" font="vector">GND</text>
 <text x="45.05" y="13.45" size="0.8" layer="25" font="vector">GND</text>
 <text x="34.3" y="13.55" size="0.8" layer="25" font="vector">GND</text>
@@ -23541,6 +23541,11 @@
 <rectangle x1="11.729290625" y1="4.24025" x2="12.244909375" y2="4.25803125" layer="25"/>
 <rectangle x1="13.08056875" y1="4.24025" x2="16.38765" y2="4.25803125" layer="25"/>
 <rectangle x1="16.47655" y1="4.24025" x2="20.5303875" y2="4.25803125" layer="25"/>
+<text x="17.65" y="33.45" size="0.8" layer="25" font="vector">CH9</text>
+<text x="28.2" y="33.45" size="0.8" layer="25" font="vector">CH11</text>
+<text x="17.6" y="24.65" size="0.8" layer="25" font="vector">CH10</text>
+<text x="28.25" y="24.55" size="0.8" layer="25" font="vector">CH12</text>
+<text x="41.75" y="33.4" size="0.8" layer="25" font="vector">IN</text>
 </plain>
 <libraries>
 <library name="transistor-power" urn="urn:adsk.eagle:library:400">
