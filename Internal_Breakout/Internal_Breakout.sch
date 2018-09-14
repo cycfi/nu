@@ -5227,13 +5227,17 @@ CONNECTOR</text>
 <junction x="170.18" y="127"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="104.14" y1="139.7" x2="104.14" y2="127" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="127" x2="132.08" y2="127" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="127" x2="119.38" y2="127" width="0.1524" layer="91"/>
 <junction x="132.08" y="127"/>
 <pinref part="Q1" gate="G$1" pin="G"/>
+<wire x1="119.38" y1="127" x2="132.08" y2="127" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="144.78" x2="93.98" y2="127" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="127" x2="104.14" y2="127" width="0.1524" layer="91"/>
 <junction x="104.14" y="127"/>
 <pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="U1" gate="G$1" pin="GND"/>
+<wire x1="119.38" y1="139.7" x2="119.38" y2="127" width="0.1524" layer="91"/>
+<junction x="119.38" y="127"/>
 </segment>
 <segment>
 <pinref part="SV5" gate="G$1" pin="2"/>
