@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -11390,6 +11390,45 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="wirepad">
+<description>&lt;b&gt;Single Pads&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SMD1,27-2,54">
+<description>&lt;b&gt;SMD PAD&lt;/b&gt;</description>
+<smd name="1" x="0" y="0" dx="1.27" dy="2.54" layer="1"/>
+<text x="0" y="0" size="0.0254" layer="27">&gt;VALUE</text>
+<text x="-0.8" y="-2.4" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="PAD">
+<wire x1="-1.016" y1="1.016" x2="1.016" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" width="0.254" layer="94"/>
+<text x="-1.143" y="1.8542" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.143" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="P" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SMD2" prefix="PAD" uservalue="yes">
+<description>&lt;b&gt;SMD PAD&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMD1,27-2,54">
+<connects>
+<connect gate="1" pin="P" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11423,18 +11462,21 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
 <part name="D1" library="m-pad-2.1" deviceset="D_SCHOTTKY" device="L"/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF, 25V"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF"/>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
 <part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="supply2" deviceset="GND" device=""/>
 <part name="U1" library="CYCFI_semicon" deviceset="TLV170" device="" value="TLV170"/>
-<part name="C3" library="rcl" deviceset="C0603_NK" device="" value="10uF, 25V"/>
+<part name="C3" library="rcl" deviceset="C0603_NK" device="" value="10uF"/>
 <part name="H2" library="CYCFI_Con" deviceset="3P-2MM-TH-MALE" device=""/>
 <part name="H1" library="CYCFI_Con" deviceset="2P-2MM-TH-MALE" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
-<part name="C2" library="rcl" deviceset="C0603_NK" device="" value="4.7uF, 25V"/>
+<part name="C2" library="rcl" deviceset="C0603_NK" device="" value="4.7uF"/>
+<part name="IN+" library="wirepad" deviceset="SMD2" device=""/>
+<part name="IN-" library="wirepad" deviceset="SMD2" device=""/>
+<part name="GND" library="wirepad" deviceset="SMD2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13691,7 +13733,7 @@ Copyright CYCFI Research Inc. 2013-2018</text>
 <text x="22.86" y="86.36" size="1.778" layer="95">IN-</text>
 <wire x1="18.415" y1="94.615" x2="23.495" y2="94.615" width="0.1524" layer="94"/>
 <wire x1="18.415" y1="89.535" x2="23.495" y2="89.535" width="0.1524" layer="94"/>
-<text x="200.025" y="11.43" size="2.54" layer="95">2018004</text>
+<text x="200.025" y="11.43" size="2.54" layer="95">2018005</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -13711,15 +13753,15 @@ Copyright CYCFI Research Inc. 2013-2018</text>
 <attribute name="VALUE" x="64.135" y="125.857" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R10" gate="G$1" x="53.34" y="78.105" smashed="yes" rot="R90">
-<attribute name="NAME" x="50.8" y="79.1464" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="50.8" y="84.2264" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="50.8" y="75.057" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R11" gate="G$1" x="66.04" y="78.105" smashed="yes" rot="R90">
-<attribute name="NAME" x="73.025" y="79.1464" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="73.025" y="84.2264" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="73.66" y="75.057" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R12" gate="G$1" x="59.055" y="62.23" smashed="yes" rot="R90">
-<attribute name="NAME" x="55.88" y="64.5414" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="55.88" y="67.0814" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="55.245" y="60.452" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R13" gate="G$1" x="39.37" y="128.27" smashed="yes" rot="R90">
@@ -13727,7 +13769,7 @@ Copyright CYCFI Research Inc. 2013-2018</text>
 <attribute name="VALUE" x="38.1" y="125.857" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R14" gate="G$1" x="39.37" y="78.105" smashed="yes" rot="R90">
-<attribute name="NAME" x="37.465" y="79.1464" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="37.465" y="84.2264" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="36.83" y="74.422" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R15" gate="G$1" x="81.28" y="128.27" smashed="yes" rot="R90">
@@ -13735,7 +13777,7 @@ Copyright CYCFI Research Inc. 2013-2018</text>
 <attribute name="VALUE" x="80.01" y="126.492" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R16" gate="G$1" x="81.28" y="78.105" smashed="yes" rot="R90">
-<attribute name="NAME" x="88.265" y="79.1464" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="88.265" y="84.2264" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="87.63" y="75.057" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY7" gate="GND" x="39.37" y="52.705"/>
@@ -13755,8 +13797,8 @@ Copyright CYCFI Research Inc. 2013-2018</text>
 <attribute name="VALUE" x="200.406" y="144.145" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C1" gate="G$1" x="118.745" y="134.62" smashed="yes">
-<attribute name="NAME" x="113.284" y="135.001" size="1.778" layer="95"/>
-<attribute name="VALUE" x="111.379" y="130.556" size="1.778" layer="96"/>
+<attribute name="NAME" x="112.776" y="136.525" size="1.778" layer="95"/>
+<attribute name="VALUE" x="110.871" y="129.286" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY11" gate="GND" x="102.87" y="123.19"/>
 <instance part="SUPPLY12" gate="GND" x="118.745" y="123.19"/>
@@ -13772,7 +13814,7 @@ Copyright CYCFI Research Inc. 2013-2018</text>
 <instance part="U1" gate="G$2" x="172.085" y="100.965" smashed="yes"/>
 <instance part="C3" gate="G$1" x="198.755" y="100.965" smashed="yes" rot="R90">
 <attribute name="NAME" x="197.231" y="105.664" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="206.375" y="100.076" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="208.915" y="105.664" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="H2" gate="G$1" x="247.015" y="137.16" smashed="yes" rot="R180">
 <attribute name="NAME" x="244.475" y="142.875" size="1.778" layer="95"/>
@@ -13783,7 +13825,19 @@ Copyright CYCFI Research Inc. 2013-2018</text>
 <instance part="SUPPLY1" gate="GND" x="236.855" y="91.44"/>
 <instance part="C2" gate="G$1" x="102.87" y="132.08" smashed="yes" rot="R180">
 <attribute name="NAME" x="98.171" y="136.906" size="1.778" layer="95"/>
-<attribute name="VALUE" x="95.504" y="129.54" size="1.778" layer="96"/>
+<attribute name="VALUE" x="94.996" y="129.54" size="1.778" layer="96"/>
+</instance>
+<instance part="IN+" gate="1" x="25.4" y="170.18" smashed="yes">
+<attribute name="NAME" x="19.177" y="169.4942" size="1.778" layer="95"/>
+<attribute name="VALUE" x="24.257" y="166.878" size="1.778" layer="96"/>
+</instance>
+<instance part="IN-" gate="1" x="25.4" y="162.56" smashed="yes">
+<attribute name="NAME" x="19.177" y="161.8742" size="1.778" layer="95"/>
+<attribute name="VALUE" x="24.257" y="159.258" size="1.778" layer="96"/>
+</instance>
+<instance part="GND" gate="1" x="25.4" y="154.94" smashed="yes">
+<attribute name="NAME" x="18.923" y="154.0002" size="1.778" layer="95"/>
+<attribute name="VALUE" x="24.257" y="151.638" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -13838,6 +13892,11 @@ Copyright CYCFI Research Inc. 2013-2018</text>
 <junction x="39.37" y="94.615"/>
 <wire x1="23.495" y1="94.615" x2="39.37" y2="94.615" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="IN+" gate="1" pin="P"/>
+<wire x1="27.94" y1="170.18" x2="30.48" y2="170.18" width="0.1524" layer="91"/>
+<label x="33.02" y="170.18" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="IN-" class="0">
 <segment>
@@ -13853,6 +13912,11 @@ Copyright CYCFI Research Inc. 2013-2018</text>
 <wire x1="30.48" y1="45.085" x2="90.805" y2="45.085" width="0.1524" layer="91"/>
 <wire x1="90.805" y1="45.085" x2="90.805" y2="94.615" width="0.1524" layer="91"/>
 <wire x1="90.805" y1="94.615" x2="81.28" y2="94.615" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IN-" gate="1" pin="P"/>
+<wire x1="27.94" y1="162.56" x2="30.48" y2="162.56" width="0.1524" layer="91"/>
+<label x="33.02" y="162.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -13925,6 +13989,11 @@ Copyright CYCFI Research Inc. 2013-2018</text>
 <pinref part="SUPPLY11" gate="GND" pin="GND"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="102.87" y1="125.73" x2="102.87" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND" gate="1" pin="P"/>
+<wire x1="27.94" y1="154.94" x2="30.48" y2="154.94" width="0.1524" layer="91"/>
+<label x="33.02" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$14" class="0">
