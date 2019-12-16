@@ -19,6 +19,8 @@ musical instruments such as the bass guitar, harps, pianos, xylophones, etc. The
 Nus are perfect for fanned-fret electric guitars with the pickup poles positioned 
 at various angles. 
 
+Refer to this repository to get the Eagle libraries used in our schematic and pcb files: https://github.com/cycfi/eagle_common
+
 This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 
 International License](http://creativecommons.org/licenses/by-nc/4.0/).
 
