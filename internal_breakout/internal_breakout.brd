@@ -1062,7 +1062,7 @@
 <rectangle x1="13.616934375" y1="4.975859375" x2="15.735290625" y2="4.991096875" layer="25"/>
 <rectangle x1="16.42109375" y1="4.975859375" x2="18.3718125" y2="4.991096875" layer="25"/>
 <rectangle x1="18.508971875" y1="4.975859375" x2="19.072853125" y2="4.991096875" layer="25"/>
-<text x="7.7114375" y="1.478278125" size="0.6096" layer="25" font="vector" ratio="12">INTERNAL BREAKOUT V2.2</text>
+<text x="7.7114375" y="1.478278125" size="0.6096" layer="25" font="vector" ratio="12">INTERNAL BREAKOUT V2.5</text>
 <text x="1.239" y="14.658" size="0.8128" layer="25" font="vector" ratio="12" rot="R90">NU MULTI INPUT</text>
 <text x="38.451" y="1.995" size="0.8128" layer="25" font="vector" ratio="12" rot="R180">A</text>
 <text x="27.452" y="1.973" size="0.8128" layer="25" font="vector" ratio="12" rot="R180">B</text>

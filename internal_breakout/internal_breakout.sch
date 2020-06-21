@@ -4221,7 +4221,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/BLM18KG700TN1
 <sheet>
 <plain>
 <text x="195.58" y="19.05" size="2.54" layer="95" font="vector">Internal Breakout</text>
-<text x="254" y="6.985" size="2.1844" layer="95" font="vector">v2.2</text>
+<text x="254" y="6.985" size="2.1844" layer="95" font="vector">v2.5</text>
 <text x="7.62" y="7.62" size="2.1844" layer="95" font="vector">Internal Breakout Project by Cycfi Research is licensed under a 
 Creative Commons Attribution-ShareAlike 4.0 International License. 
 
