@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4216,6 +4216,12 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/BLM18KG700TN1
 <attribute name="OC_FARNELL" value="unknown"/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
+<part name="J17" library="con-lstb" deviceset="MA03-1" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -5143,6 +5149,8 @@ REGULATED/ UNREGULATED</text>
 <rectangle x1="203.10475" y1="31.90875" x2="211.93125" y2="31.97225" layer="95"/>
 <rectangle x1="214.78875" y1="31.90875" x2="222.91675" y2="31.97225" layer="95"/>
 <rectangle x1="223.48825" y1="31.90875" x2="225.83775" y2="31.97225" layer="95"/>
+<text x="108.585" y="85.725" size="1.778" layer="95" rot="R90">2 WAY SWITCH 
+  CONNECTOR</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -5190,6 +5198,7 @@ REGULATED/ UNREGULATED</text>
 </instance>
 <instance part="J15" gate="G$1" x="115.57" y="71.12"/>
 <instance part="J16" gate="G$1" x="115.57" y="55.88"/>
+<instance part="J17" gate="G$1" x="115.57" y="95.885"/>
 </instances>
 <busses>
 </busses>
@@ -5351,6 +5360,11 @@ REGULATED/ UNREGULATED</text>
 <wire x1="123.19" y1="55.88" x2="126.365" y2="55.88" width="0.1524" layer="91"/>
 <label x="127" y="55.245" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J17" gate="G$1" pin="2"/>
+<wire x1="123.19" y1="95.885" x2="125.73" y2="95.885" width="0.1524" layer="91"/>
+<label x="132.715" y="96.52" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="VIN" class="0">
 <segment>
@@ -5473,6 +5487,11 @@ REGULATED/ UNREGULATED</text>
 <wire x1="123.19" y1="73.66" x2="125.73" y2="73.66" width="0.1524" layer="91"/>
 <label x="127" y="73.025" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J17" gate="G$1" pin="3"/>
+<wire x1="123.19" y1="98.425" x2="125.73" y2="98.425" width="0.1524" layer="91"/>
+<label x="132.08" y="99.695" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="CH2" class="0">
 <segment>
@@ -5526,6 +5545,11 @@ REGULATED/ UNREGULATED</text>
 <pinref part="J16" gate="G$1" pin="3"/>
 <wire x1="123.19" y1="58.42" x2="126.365" y2="58.42" width="0.1524" layer="91"/>
 <label x="127" y="57.785" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J17" gate="G$1" pin="1"/>
+<wire x1="123.19" y1="93.345" x2="125.73" y2="93.345" width="0.1524" layer="91"/>
+<label x="132.08" y="93.98" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="CH4" class="0">
