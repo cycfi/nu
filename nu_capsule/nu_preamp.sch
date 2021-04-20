@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="9.6.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="2.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -70,7 +71,7 @@
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
-<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="49" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
@@ -12412,7 +12413,7 @@ Copyright CYCFI Research Inc. 2013-2019</text>
 <rectangle x1="223.48825" y1="31.90875" x2="225.83775" y2="31.97225" layer="95"/>
 </plain>
 <instances>
-<instance part="FRAME1" gate="G$1" x="0" y="0"/>
+<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME1" gate="G$2" x="162.56" y="0" smashed="yes">
 <attribute name="LAST_DATE_TIME" x="175.26" y="1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="SHEET" x="248.92" y="1.27" size="2.54" layer="94" font="vector"/>
@@ -12464,14 +12465,26 @@ Copyright CYCFI Research Inc. 2013-2019</text>
 </instance>
 <instance part="SUPPLY7" gate="GND" x="39.37" y="52.705" smashed="yes"/>
 <instance part="SUPPLY8" gate="GND" x="81.28" y="52.705" smashed="yes"/>
-<instance part="R5" gate="G$1" x="136.525" y="112.395"/>
-<instance part="R4" gate="G$1" x="136.525" y="98.425"/>
+<instance part="R5" gate="G$1" x="136.525" y="112.395" smashed="yes">
+<attribute name="NAME" x="132.715" y="113.8936" size="1.778" layer="95"/>
+<attribute name="VALUE" x="132.715" y="109.093" size="1.778" layer="96"/>
+</instance>
+<instance part="R4" gate="G$1" x="136.525" y="98.425" smashed="yes">
+<attribute name="NAME" x="132.715" y="99.9236" size="1.778" layer="95"/>
+<attribute name="VALUE" x="132.715" y="95.123" size="1.778" layer="96"/>
+</instance>
 <instance part="R3" gate="G$1" x="159.385" y="85.725" smashed="yes" rot="R90">
 <attribute name="NAME" x="156.845" y="89.3064" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="156.21" y="84.582" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R7" gate="G$1" x="136.525" y="131.445"/>
-<instance part="R6" gate="G$1" x="156.845" y="131.445"/>
+<instance part="R7" gate="G$1" x="136.525" y="131.445" smashed="yes">
+<attribute name="NAME" x="132.715" y="132.9436" size="1.778" layer="95"/>
+<attribute name="VALUE" x="132.715" y="128.143" size="1.778" layer="96"/>
+</instance>
+<instance part="R6" gate="G$1" x="156.845" y="131.445" smashed="yes">
+<attribute name="NAME" x="153.035" y="132.9436" size="1.778" layer="95"/>
+<attribute name="VALUE" x="153.035" y="128.143" size="1.778" layer="96"/>
+</instance>
 <instance part="SUPPLY9" gate="GND" x="164.465" y="121.285" smashed="yes"/>
 <instance part="SUPPLY10" gate="GND" x="172.085" y="80.645" smashed="yes"/>
 <instance part="D1" gate="G$1" x="198.12" y="139.7" smashed="yes" rot="R180">
