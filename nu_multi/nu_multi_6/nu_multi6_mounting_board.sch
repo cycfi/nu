@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L nu_multi6_output_board:CONN_01X02 J1
+L nu_multi6_mounting_board:CONN_01X02 J1
 U 1 1 5AA24F79
 P 2050 5220
 F 0 "J1" H 2050 5370 50  0000 C CNN
@@ -25,7 +25,7 @@ F 3 "" H 2050 5220 50  0001 C CNN
 	-1   0    0    1
 $EndComp
 $Comp
-L nu_multi6_output_board:CONN_01X03 J2
+L nu_multi6_mounting_board:CONN_01X03 J2
 U 1 1 5AA2537C
 P 2050 5820
 F 0 "J2" H 2050 6020 50  0000 C CNN
@@ -36,7 +36,7 @@ F 3 "" H 2050 5820 50  0001 C CNN
 	-1   0    0    1
 $EndComp
 $Comp
-L nu_multi6_output_board:CONN_01X02 J3
+L nu_multi6_mounting_board:CONN_01X02 J3
 U 1 1 5AA25639
 P 2050 3770
 F 0 "J3" H 2050 3920 50  0000 C CNN
@@ -47,7 +47,7 @@ F 3 "" H 2050 3770 50  0001 C CNN
 	-1   0    0    1
 $EndComp
 $Comp
-L nu_multi6_output_board:CONN_01X03 J4
+L nu_multi6_mounting_board:CONN_01X03 J4
 U 1 1 5AA2563F
 P 2050 4370
 F 0 "J4" H 2050 4570 50  0000 C CNN
@@ -58,7 +58,7 @@ F 3 "" H 2050 4370 50  0001 C CNN
 	-1   0    0    1
 $EndComp
 $Comp
-L nu_multi6_output_board:CONN_01X02 J5
+L nu_multi6_mounting_board:CONN_01X02 J5
 U 1 1 5AA25CA9
 P 2050 2220
 F 0 "J5" H 2050 2370 50  0000 C CNN
@@ -69,7 +69,7 @@ F 3 "" H 2050 2220 50  0001 C CNN
 	-1   0    0    1
 $EndComp
 $Comp
-L nu_multi6_output_board:CONN_01X03 J6
+L nu_multi6_mounting_board:CONN_01X03 J6
 U 1 1 5AA25CAF
 P 2050 2820
 F 0 "J6" H 2050 3020 50  0000 C CNN
@@ -80,7 +80,7 @@ F 3 "" H 2050 2820 50  0001 C CNN
 	-1   0    0    1
 $EndComp
 $Comp
-L nu_multi6_output_board:CONN_01X02 J7
+L nu_multi6_mounting_board:CONN_01X02 J7
 U 1 1 5AA25CB5
 P 2050 820
 F 0 "J7" H 2050 970 50  0000 C CNN
@@ -91,7 +91,7 @@ F 3 "" H 2050 820 50  0001 C CNN
 	-1   0    0    1
 $EndComp
 $Comp
-L nu_multi6_output_board:CONN_01X03 J8
+L nu_multi6_mounting_board:CONN_01X03 J8
 U 1 1 5AA25CBB
 P 2050 1420
 F 0 "J8" H 2050 1620 50  0000 C CNN
@@ -102,7 +102,7 @@ F 3 "" H 2050 1420 50  0001 C CNN
 	-1   0    0    1
 $EndComp
 $Comp
-L nu_multi6_output_board:CONN_01X02 J11
+L nu_multi6_mounting_board:CONN_01X02 J11
 U 1 1 5AA25DFB
 P 2050 6620
 F 0 "J11" H 2050 6770 50  0000 C CNN
@@ -113,7 +113,7 @@ F 3 "" H 2050 6620 50  0001 C CNN
 	-1   0    0    1
 $EndComp
 $Comp
-L nu_multi6_output_board:CONN_01X03 J12
+L nu_multi6_mounting_board:CONN_01X03 J12
 U 1 1 5AA25E01
 P 2050 7220
 F 0 "J12" H 2050 7420 50  0000 C CNN
@@ -124,7 +124,7 @@ F 3 "" H 2050 7220 50  0001 C CNN
 	-1   0    0    1
 $EndComp
 $Comp
-L nu_multi6_output_board:CONN_01X14 J13
+L nu_multi6_mounting_board:CONN_01X14 J13
 U 1 1 5AA25EDC
 P 8800 2770
 F 0 "J13" H 8800 3520 50  0000 C CNN
@@ -266,7 +266,7 @@ CH4
 Text Notes 1750 2220 0    60   ~ 0
 CH3
 $Comp
-L nu_multi6_output_board:CONN_01X02 J9
+L nu_multi6_mounting_board:CONN_01X02 J9
 U 1 1 5AA66B7D
 P 5350 920
 F 0 "J9" H 5350 1070 50  0000 C CNN
@@ -277,7 +277,7 @@ F 3 "" H 5350 920 50  0001 C CNN
 	-1   0    0    1
 $EndComp
 $Comp
-L nu_multi6_output_board:CONN_01X03 J10
+L nu_multi6_mounting_board:CONN_01X03 J10
 U 1 1 5AA66D73
 P 5350 1470
 F 0 "J10" H 5350 1670 50  0000 C CNN
