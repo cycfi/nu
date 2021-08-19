@@ -1,0 +1,38 @@
+#********** START OF renumber-sheet.ulp ULP Version 4.4.4 10-04-2018 :16:51:13 LOG **********#
+#OldRef				SheetNumber	NewRef
+GND				1	GND17
+IN+				1	IN+17
+IN-				1	IN-17
+#********** END OF renumber-sheet.ulp ULP Version 4.4.4 10-04-2018 :16:51:13 LOG **********#
+
+#********** START OF fix_via_hack.ulp ULP Version 4.8.0 10-04-2018 :16:51:23 LOG **********#
+PADFILL	PadCount=2		Net=GND				(X=5720.000000 Y=7290.000000)	LayerStart=1	LayerEnd=1
+PADFILL	PadCount=3		Net=GND				(X=3402.500000 Y=3752.500000)	LayerStart=1	LayerEnd=1
+PADFILL	PadCount=9		Net=GND				(X=7657.750000 Y=13513.000000)	LayerStart=16	LayerEnd=16
+PADFILL	PadCount=23		Net=GND				(X=3150.000000 Y=2485.000000)	LayerStart=16	LayerEnd=16
+PADFILL	PadCount=31		Net=GND				(X=6350.750000 Y=3543.750000)	LayerStart=16	LayerEnd=16
+PADFILL	PadCount=43		Net=GND				(X=2540.000000 Y=6757.500000)	LayerStart=1	LayerEnd=1
+PADFILL	PadCount=47		Net=GND				(X=4755.000000 Y=13402.500000)	LayerStart=1	LayerEnd=1
+PADFILL	PadCount=51		Net=GND				(X=6562.500000 Y=13355.000000)	LayerStart=1	LayerEnd=1
+PADFILL	PadCount=54		Net=GND				(X=5695.000000 Y=3310.000000)	LayerStart=1	LayerEnd=1
+#********** END OF fix_via_hack.ulp ULP Version 4.8.0 10-04-2018 :16:51:23 LOG **********#
+
+#********** START OF eagle6xx-sch-to-kicad-sch.ulp 2.0 10-04-2018 :16:51:26 LOG **********#
+    Conversion completed with no Messages
+#********** END OF eagle6xx-sch-to-kicad-sch.ulp 2.0 10-04-2018 :16:51:26 LOG **********#
+
+#********** START OF exp-lbrs.ulp 6.8 10-04-2018 :16:51:31 LOG **********#
+OK: Eagle library export from SCH/PCB successful
+    Conversion completed with no messages
+#********** END OF exp-lbrs.ulp 6.8 10-04-2018 :16:51:31 LOG **********#
+
+
+#********** START OF eagle-lbr2kicad-1.0.ulp 3.1 10-04-2018 :16:51:42 LOG **********#
+Missing Prefix Part =''				2P-2MM-TH					Nu_Preamp		M
+Missing Prefix Part =''				SOT23					Nu_Preamp		M
+Missing Prefix Part =''				3P-2MM-TH					Nu_Preamp		M
+Missing Prefix Part =''				C0603_NK					Nu_Preamp		M
+Missing Prefix Part =''				SOD323					Nu_Preamp		M
+Missing Prefix Part =''				SOT23-5					Nu_Preamp		M
+#********** END OF eagle-lbr2kicad-1.0.ulp 3.1 10-04-2018 :16:51:42 LOG **********#
+

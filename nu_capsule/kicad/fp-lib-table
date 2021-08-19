@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Nu_Preamp")(type Legacy)(uri "F:/Nu Preamp/Kicad/Nu_Preamp.mod")(options "")(descr ""))
+)
