@@ -6,8 +6,8 @@ encoding utf-8
 Sheet 1 1
 Title "Output Board"
 Date "2018-04-17"
-Rev ""
-Comp "Document Number: 2018008"
+Rev "2.5"
+Comp "Document Number: 2021012"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -22,7 +22,7 @@ F 1 "CONN_02X07" V 3940 3610 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x07_Pitch1.00mm_SMD" H 3940 2410 50  0001 C CNN
 F 3 "" H 3940 2410 50  0001 C CNN
 	1    3940 3610
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR01
@@ -33,7 +33,7 @@ F 1 "GND" H 3945 3995 50  0000 C CNN
 F 2 "" H 3945 4145 50  0001 C CNN
 F 3 "" H 3945 4145 50  0001 C CNN
 	1    3945 4145
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Notes 6500 3405 0    60   ~ 0
 CH1\n
@@ -88,7 +88,7 @@ TO INTERNAL BREAKOUT\n
 Text Notes 3205 4490 0    60   ~ 0
 2x7 Female Pin Header 1mm Pitch
 Text Notes 2035 6835 0    60   ~ 0
-Nu Project by Cycfi Research is licensed under a Creative \nCommons Attribution-ShareAlike 4.0 International License. \nhttp://creativecommons.org/licenses/by-nc/4.0/\n\nCopyright CYCFI Research Inc. 2013-2018
+Nu Project by Cycfi Research is licensed under a Creative \nCommons Attribution-ShareAlike 4.0 International License. \nhttp://creativecommons.org/licenses/by-nc/4.0/\n\nCopyright CYCFI Research Inc. 2013-2021
 $Comp
 L nu_multi_output_board:CONN_02X05-conn J2
 U 1 1 5AE2C2DE
@@ -98,7 +98,7 @@ F 1 "CONN_02X05" H 6930 3210 50  0000 C CNN
 F 2 "Cycfi_Kicad_Headers:2x5_1mm_Angled_SMD" H 6930 2310 50  0001 C CNN
 F 3 "" H 6930 2310 50  0001 C CNN
 	1    6930 3510
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4190 3310 4450 3310

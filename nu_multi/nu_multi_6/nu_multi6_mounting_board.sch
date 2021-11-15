@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Nu Multi 6 Output Board"
 Date "2021-11-15"
-Rev "v2.5"
+Rev "v2.51"
 Comp "Document Number: 2021009"
 Comment1 ""
 Comment2 ""
@@ -22,7 +22,7 @@ F 1 "CONN_01X02" H 1900 5070 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 2050 5220 50  0001 C CNN
 F 3 "" H 2050 5220 50  0001 C CNN
 	1    2050 5220
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L cycfi_library:CONN_01X03 J2
@@ -33,7 +33,7 @@ F 1 "CONN_01X03" H 1900 5620 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.00mm" H 2050 5820 50  0001 C CNN
 F 3 "" H 2050 5820 50  0001 C CNN
 	1    2050 5820
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L cycfi_library:CONN_01X02 J3
@@ -44,7 +44,7 @@ F 1 "CONN_01X02" H 1900 3620 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 2050 3770 50  0001 C CNN
 F 3 "" H 2050 3770 50  0001 C CNN
 	1    2050 3770
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L cycfi_library:CONN_01X03 J4
@@ -55,7 +55,7 @@ F 1 "CONN_01X03" H 1900 4170 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.00mm" H 2050 4370 50  0001 C CNN
 F 3 "" H 2050 4370 50  0001 C CNN
 	1    2050 4370
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L cycfi_library:CONN_01X02 J5
@@ -66,7 +66,7 @@ F 1 "CONN_01X02" H 1900 2070 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 2050 2220 50  0001 C CNN
 F 3 "" H 2050 2220 50  0001 C CNN
 	1    2050 2220
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L cycfi_library:CONN_01X03 J6
@@ -77,7 +77,7 @@ F 1 "CONN_01X03" H 1900 2620 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.00mm" H 2050 2820 50  0001 C CNN
 F 3 "" H 2050 2820 50  0001 C CNN
 	1    2050 2820
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L cycfi_library:CONN_01X02 J7
@@ -87,8 +87,8 @@ F 0 "J7" H 2050 970 50  0000 C CNN
 F 1 "CONN_01X02" H 1900 670 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 2050 820 50  0001 C CNN
 F 3 "" H 2050 820 50  0001 C CNN
-	1    2050 820
-	-1   0    0    1
+	1    2050 820 
+	-1   0    0    1   
 $EndComp
 $Comp
 L cycfi_library:CONN_01X03 J8
@@ -99,7 +99,7 @@ F 1 "CONN_01X03" H 1900 1220 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.00mm" H 2050 1420 50  0001 C CNN
 F 3 "" H 2050 1420 50  0001 C CNN
 	1    2050 1420
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L cycfi_library:CONN_01X02 J11
@@ -110,7 +110,7 @@ F 1 "CONN_01X02" H 1900 6470 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 2050 6620 50  0001 C CNN
 F 3 "" H 2050 6620 50  0001 C CNN
 	1    2050 6620
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L cycfi_library:CONN_01X03 J12
@@ -121,7 +121,7 @@ F 1 "CONN_01X03" H 1900 7020 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.00mm" H 2050 7220 50  0001 C CNN
 F 3 "" H 2050 7220 50  0001 C CNN
 	1    2050 7220
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L cycfi_library:CONN_01X14 J13
@@ -132,7 +132,7 @@ F 1 "CONN_01X14" H 8800 1970 50  0001 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x07_Pitch1.00mm_SMD" H 8800 2770 50  0001 C CNN
 F 3 "" H 8800 2770 50  0001 C CNN
 	1    8800 2770
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR01
@@ -143,7 +143,7 @@ F 1 "GND" H 8300 1870 50  0000 C CNN
 F 2 "" H 8300 2020 50  0001 C CNN
 F 3 "" H 8300 2020 50  0001 C CNN
 	1    8300 2020
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text GLabel 8095 1920 0    60   Input ~ 0
 V+
@@ -156,7 +156,7 @@ F 1 "GND" H 2450 7320 50  0000 C CNN
 F 2 "" H 2450 7470 50  0001 C CNN
 F 3 "" H 2450 7470 50  0001 C CNN
 	1    2450 7470
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR03
@@ -167,7 +167,7 @@ F 1 "GND" H 2450 6620 50  0000 C CNN
 F 2 "" H 2450 6770 50  0001 C CNN
 F 3 "" H 2450 6770 50  0001 C CNN
 	1    2450 6770
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR04
@@ -178,7 +178,7 @@ F 1 "GND" H 2400 5920 50  0000 C CNN
 F 2 "" H 2400 6070 50  0001 C CNN
 F 3 "" H 2400 6070 50  0001 C CNN
 	1    2400 6070
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR05
@@ -189,7 +189,7 @@ F 1 "GND" H 2400 5220 50  0000 C CNN
 F 2 "" H 2400 5370 50  0001 C CNN
 F 3 "" H 2400 5370 50  0001 C CNN
 	1    2400 5370
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR06
@@ -200,7 +200,7 @@ F 1 "GND" H 2400 3770 50  0000 C CNN
 F 2 "" H 2400 3920 50  0001 C CNN
 F 3 "" H 2400 3920 50  0001 C CNN
 	1    2400 3920
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR07
@@ -211,7 +211,7 @@ F 1 "GND" H 2400 4420 50  0000 C CNN
 F 2 "" H 2400 4570 50  0001 C CNN
 F 3 "" H 2400 4570 50  0001 C CNN
 	1    2400 4570
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR08
@@ -222,7 +222,7 @@ F 1 "GND" H 2400 2220 50  0000 C CNN
 F 2 "" H 2400 2370 50  0001 C CNN
 F 3 "" H 2400 2370 50  0001 C CNN
 	1    2400 2370
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR09
@@ -233,7 +233,7 @@ F 1 "GND" H 2400 2870 50  0000 C CNN
 F 2 "" H 2400 3020 50  0001 C CNN
 F 3 "" H 2400 3020 50  0001 C CNN
 	1    2400 3020
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR010
@@ -243,8 +243,8 @@ F 0 "#PWR010" H 2400 720 50  0001 C CNN
 F 1 "GND" H 2400 820 50  0000 C CNN
 F 2 "" H 2400 970 50  0001 C CNN
 F 3 "" H 2400 970 50  0001 C CNN
-	1    2400 970
-	1    0    0    -1
+	1    2400 970 
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR011
@@ -255,7 +255,7 @@ F 1 "GND" H 2400 1520 50  0000 C CNN
 F 2 "" H 2400 1670 50  0001 C CNN
 F 3 "" H 2400 1670 50  0001 C CNN
 	1    2400 1670
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Notes 1900 6620 2    60   ~ 0
 CH6\n
@@ -273,8 +273,8 @@ F 0 "J9" H 5350 1070 50  0000 C CNN
 F 1 "CONN_01X02" H 5200 770 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 5350 920 50  0001 C CNN
 F 3 "" H 5350 920 50  0001 C CNN
-	1    5350 920
-	-1   0    0    1
+	1    5350 920 
+	-1   0    0    1   
 $EndComp
 $Comp
 L cycfi_library:CONN_01X03 J10
@@ -285,7 +285,7 @@ F 1 "CONN_01X03" H 5200 1270 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.00mm" H 5350 1470 50  0001 C CNN
 F 3 "" H 5350 1470 50  0001 C CNN
 	1    5350 1470
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR012
@@ -296,7 +296,7 @@ F 1 "GND" H 5650 1470 50  0000 C CNN
 F 2 "" H 5650 1620 50  0001 C CNN
 F 3 "" H 5650 1620 50  0001 C CNN
 	1    5650 1620
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR013
@@ -307,7 +307,7 @@ F 1 "GND" H 5650 870 50  0000 C CNN
 F 2 "" H 5650 1020 50  0001 C CNN
 F 3 "" H 5650 1020 50  0001 C CNN
 	1    5650 1020
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4000 2220 6050 2220
@@ -326,9 +326,9 @@ Wire Wire Line
 Wire Wire Line
 	2400 1520 2250 1520
 Wire Wire Line
-	2400 970  2400 870
+	2400 970  2400 870 
 Wire Wire Line
-	2400 870  2250 870
+	2400 870  2250 870 
 Wire Wire Line
 	2400 2820 2400 2920
 Wire Wire Line
@@ -398,9 +398,9 @@ Wire Wire Line
 Wire Wire Line
 	6650 2720 8600 2720
 Wire Wire Line
-	5650 1020 5650 970
+	5650 1020 5650 970 
 Wire Wire Line
-	5650 970  5550 970
+	5650 970  5550 970 
 Wire Wire Line
 	5650 1470 5650 1570
 Wire Wire Line
@@ -487,7 +487,7 @@ F 1 "GND" H 8300 3370 50  0000 C CNN
 F 2 "" H 8300 3520 50  0001 C CNN
 F 3 "" H 8300 3520 50  0001 C CNN
 	1    8300 3520
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8600 3120 8300 3120
@@ -515,7 +515,7 @@ CH6
 Text Notes 8950 2270 0    60   ~ 0
 V+\n
 Wire Wire Line
-	5550 870  6300 870
+	5550 870  6300 870 
 Wire Wire Line
 	6300 870  6300 2320
 Wire Wire Line
@@ -523,7 +523,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 1370 6050 2220
 Wire Wire Line
-	2250 770  4500 770
+	2250 770  4500 770 
 Wire Wire Line
 	4500 770  4500 2420
 Wire Wire Line

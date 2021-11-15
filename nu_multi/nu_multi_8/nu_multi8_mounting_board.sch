@@ -1,0 +1,747 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Nu Multi 8"
+Date "2021-11-15"
+Rev "2.5"
+Comp "Document Number 2021010"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L cycfi_library:CONN_01X14 J17
+U 1 1 5B3C178C
+P 9845 4015
+F 0 "J17" H 9845 4765 50  0000 C CNN
+F 1 "CONN_01X14" H 9810 3235 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x07_Pitch1.00mm_SMD" H 9845 4015 50  0001 C CNN
+F 3 "" H 9845 4015 50  0001 C CNN
+	1    9845 4015
+	1    0    0    -1  
+$EndComp
+$Comp
+L cycfi_library:CONN_01X02 J15
+U 1 1 5B3C1AC1
+P 7565 1270
+F 0 "J15" H 7565 1420 50  0000 C CNN
+F 1 "CONN_01X02" H 7565 1120 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 7565 1270 50  0001 C CNN
+F 3 "" H 7565 1270 50  0001 C CNN
+	1    7565 1270
+	-1   0    0    1   
+$EndComp
+$Comp
+L cycfi_library:CONN_01X03 J16
+U 1 1 5B3C1BA0
+P 7575 1850
+F 0 "J16" H 7575 2050 50  0000 C CNN
+F 1 "CONN_01X03" H 7565 1645 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.00mm" H 7575 1850 50  0001 C CNN
+F 3 "" H 7575 1850 50  0001 C CNN
+	1    7575 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L cycfi_library:CONN_01X02 J13
+U 1 1 5B3C1FCF
+P 6265 1300
+F 0 "J13" H 6265 1450 50  0000 C CNN
+F 1 "CONN_01X02" H 6270 1150 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 6265 1300 50  0001 C CNN
+F 3 "" H 6265 1300 50  0001 C CNN
+	1    6265 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L cycfi_library:CONN_01X03 J14
+U 1 1 5B3C1FD5
+P 6275 1880
+F 0 "J14" H 6275 2080 50  0000 C CNN
+F 1 "CONN_01X03" H 6280 1665 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.00mm" H 6275 1880 50  0001 C CNN
+F 3 "" H 6275 1880 50  0001 C CNN
+	1    6275 1880
+	-1   0    0    1   
+$EndComp
+$Comp
+L cycfi_library:CONN_01X02 J11
+U 1 1 5B3C2540
+P 4955 1290
+F 0 "J11" H 4955 1440 50  0000 C CNN
+F 1 "CONN_01X02" H 4970 1135 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 4955 1290 50  0001 C CNN
+F 3 "" H 4955 1290 50  0001 C CNN
+	1    4955 1290
+	-1   0    0    1   
+$EndComp
+$Comp
+L cycfi_library:CONN_01X03 J12
+U 1 1 5B3C2546
+P 4965 1870
+F 0 "J12" H 4965 2070 50  0000 C CNN
+F 1 "CONN_01X03" H 4960 1665 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.00mm" H 4965 1870 50  0001 C CNN
+F 3 "" H 4965 1870 50  0001 C CNN
+	1    4965 1870
+	-1   0    0    1   
+$EndComp
+$Comp
+L cycfi_library:CONN_01X02 J9
+U 1 1 5B3C254C
+P 3655 1320
+F 0 "J9" H 3655 1470 50  0000 C CNN
+F 1 "CONN_01X02" H 3650 1150 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 3655 1320 50  0001 C CNN
+F 3 "" H 3655 1320 50  0001 C CNN
+	1    3655 1320
+	-1   0    0    1   
+$EndComp
+$Comp
+L cycfi_library:CONN_01X03 J10
+U 1 1 5B3C2552
+P 3665 1900
+F 0 "J10" H 3665 2100 50  0000 C CNN
+F 1 "CONN_01X03" H 3670 1675 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.00mm" H 3665 1900 50  0001 C CNN
+F 3 "" H 3665 1900 50  0001 C CNN
+	1    3665 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L cycfi_library:CONN_01X02 J2
+U 1 1 5B3C288B
+P 2115 2985
+F 0 "J2" H 2115 3135 50  0000 C CNN
+F 1 "CONN_01X02" H 2130 2830 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 2115 2985 50  0001 C CNN
+F 3 "" H 2115 2985 50  0001 C CNN
+	1    2115 2985
+	-1   0    0    1   
+$EndComp
+$Comp
+L cycfi_library:CONN_01X03 J6
+U 1 1 5B3C2891
+P 2125 3565
+F 0 "J6" H 2125 3765 50  0000 C CNN
+F 1 "CONN_01X03" H 2155 3360 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.00mm" H 2125 3565 50  0001 C CNN
+F 3 "" H 2125 3565 50  0001 C CNN
+	1    2125 3565
+	-1   0    0    1   
+$EndComp
+$Comp
+L cycfi_library:CONN_01X02 J3
+U 1 1 5B3C298F
+P 2115 4420
+F 0 "J3" H 2115 4570 50  0000 C CNN
+F 1 "CONN_01X02" H 2125 4255 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 2115 4420 50  0001 C CNN
+F 3 "" H 2115 4420 50  0001 C CNN
+	1    2115 4420
+	-1   0    0    1   
+$EndComp
+$Comp
+L cycfi_library:CONN_01X03 J7
+U 1 1 5B3C2995
+P 2125 5000
+F 0 "J7" H 2125 5200 50  0000 C CNN
+F 1 "CONN_01X03" H 2145 4795 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.00mm" H 2125 5000 50  0001 C CNN
+F 3 "" H 2125 5000 50  0001 C CNN
+	1    2125 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L cycfi_library:CONN_01X02 J4
+U 1 1 5B3C299B
+P 2115 6070
+F 0 "J4" H 2115 6220 50  0000 C CNN
+F 1 "CONN_01X02" H 2115 5905 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 2115 6070 50  0001 C CNN
+F 3 "" H 2115 6070 50  0001 C CNN
+	1    2115 6070
+	-1   0    0    1   
+$EndComp
+$Comp
+L cycfi_library:CONN_01X03 J1
+U 1 1 5B3C29A1
+P 2055 6650
+F 0 "J1" H 2055 6850 50  0000 C CNN
+F 1 "CONN_01X03" H 2045 6440 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.00mm" H 2055 6650 50  0001 C CNN
+F 3 "" H 2055 6650 50  0001 C CNN
+	1    2055 6650
+	-1   0    0    1   
+$EndComp
+$Comp
+L cycfi_library:CONN_01X02 J5
+U 1 1 5B3C2C26
+P 2125 1260
+F 0 "J5" H 2125 1410 50  0000 C CNN
+F 1 "CONN_01X02" H 2130 1100 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 2125 1260 50  0001 C CNN
+F 3 "" H 2125 1260 50  0001 C CNN
+	1    2125 1260
+	-1   0    0    1   
+$EndComp
+$Comp
+L cycfi_library:CONN_01X03 J8
+U 1 1 5B3C2C2C
+P 2135 1840
+F 0 "J8" H 2135 2040 50  0000 C CNN
+F 1 "CONN_01X03" H 2155 1615 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.00mm" H 2135 1840 50  0001 C CNN
+F 3 "" H 2135 1840 50  0001 C CNN
+	1    2135 1840
+	-1   0    0    1   
+$EndComp
+Text Notes 10025 3400 0    60   ~ 0
+GND
+Text Notes 10030 3505 0    60   ~ 0
+V+
+Text Notes 10020 3605 0    60   ~ 0
+CH1
+Text Notes 10020 3710 0    60   ~ 0
+CH2
+Text Notes 10020 3820 0    60   ~ 0
+CH3
+Text Notes 10020 3910 0    60   ~ 0
+CH4
+Text Notes 10020 4005 0    60   ~ 0
+CH5
+Text Notes 10020 4105 0    60   ~ 0
+CH6
+Text Notes 10020 4205 0    60   ~ 0
+CH7
+Text Notes 10020 4300 0    60   ~ 0
+CH8
+Text Notes 10020 4400 0    60   ~ 0
+GND
+Text Notes 10025 4505 0    60   ~ 0
+GND
+Text Notes 10025 4605 0    60   ~ 0
+GND
+Text Notes 10020 4705 0    60   ~ 0
+GND
+Text GLabel 9210 3095 0    60   Input ~ 0
+V+
+$Comp
+L power:GND #PWR01
+U 1 1 5B3CBEB7
+P 9390 3265
+F 0 "#PWR01" H 9390 3015 50  0001 C CNN
+F 1 "GND" H 9390 3115 50  0000 C CNN
+F 2 "" H 9390 3265 50  0001 C CNN
+F 3 "" H 9390 3265 50  0001 C CNN
+	1    9390 3265
+	1    0    0    -1  
+$EndComp
+Text Notes 7295 1245 0    60   ~ 0
+CH1
+Text Notes 5960 1280 0    60   ~ 0
+CH2
+Text Notes 4680 1275 0    60   ~ 0
+CH3
+Text Notes 3365 1300 0    60   ~ 0
+CH4
+Text Notes 1815 1250 0    60   ~ 0
+CH5
+Text Notes 7290 1365 0    60   ~ 0
+GND
+Text Notes 7290 1895 0    60   ~ 0
+GND
+Text Notes 7280 1995 0    60   ~ 0
+GND
+Text Notes 5965 1390 0    60   ~ 0
+GND
+Text Notes 5970 1930 0    60   ~ 0
+GND
+Text Notes 5965 2025 0    60   ~ 0
+GND
+Text Notes 4680 1385 0    60   ~ 0
+GND
+Text Notes 4695 1915 0    60   ~ 0
+GND
+Text Notes 4685 2015 0    60   ~ 0
+GND
+Text Notes 3365 1405 0    60   ~ 0
+GND
+Text Notes 3380 1950 0    60   ~ 0
+GND
+Text Notes 3385 2050 0    60   ~ 0
+GND
+Text Notes 1815 1345 0    60   ~ 0
+GND
+Text Notes 1845 1890 0    60   ~ 0
+GND
+Text Notes 1840 1985 0    60   ~ 0
+GND
+Text Notes 1840 3085 0    60   ~ 0
+GND
+Text Notes 1835 3610 0    60   ~ 0
+GND
+Text Notes 1840 3710 0    60   ~ 0
+GND
+Text Notes 1840 4535 0    60   ~ 0
+GND
+Text Notes 1840 5050 0    60   ~ 0
+GND
+Text Notes 1840 5150 0    60   ~ 0
+GND
+Text Notes 1825 6170 0    60   ~ 0
+GND
+Text Notes 1820 6710 0    60   ~ 0
+GND
+Text Notes 1820 6810 0    60   ~ 0
+GND
+Text Notes 1840 2970 0    60   ~ 0
+CH6
+Text Notes 1840 4415 0    60   ~ 0
+CH7
+Text Notes 1825 6040 0    60   ~ 0
+CH8
+Text Notes 7355 1775 0    60   ~ 0
+V+
+Text Notes 6045 1815 0    60   ~ 0
+V+
+Text Notes 4760 1805 0    60   ~ 0
+V+
+Text Notes 3460 1840 0    60   ~ 0
+V+
+Text Notes 1920 1780 0    60   ~ 0
+V+
+Text Notes 1900 3500 0    60   ~ 0
+V+
+Text Notes 1910 4930 0    60   ~ 0
+V+
+Text Notes 1895 6595 0    60   ~ 0
+V+
+$Comp
+L power:GND #PWR02
+U 1 1 5B3DB777
+P 9380 4730
+F 0 "#PWR02" H 9380 4480 50  0001 C CNN
+F 1 "GND" H 9380 4580 50  0000 C CNN
+F 2 "" H 9380 4730 50  0001 C CNN
+F 3 "" H 9380 4730 50  0001 C CNN
+	1    9380 4730
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5B3DC92F
+P 7945 1380
+F 0 "#PWR03" H 7945 1130 50  0001 C CNN
+F 1 "GND" H 7945 1230 50  0000 C CNN
+F 2 "" H 7945 1380 50  0001 C CNN
+F 3 "" H 7945 1380 50  0001 C CNN
+	1    7945 1380
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5B3DCD5B
+P 7935 2055
+F 0 "#PWR04" H 7935 1805 50  0001 C CNN
+F 1 "GND" H 7935 1905 50  0000 C CNN
+F 2 "" H 7935 2055 50  0001 C CNN
+F 3 "" H 7935 2055 50  0001 C CNN
+	1    7935 2055
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5B3DDBF7
+P 6615 1415
+F 0 "#PWR05" H 6615 1165 50  0001 C CNN
+F 1 "GND" H 6615 1265 50  0000 C CNN
+F 2 "" H 6615 1415 50  0001 C CNN
+F 3 "" H 6615 1415 50  0001 C CNN
+	1    6615 1415
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5B3DDCBD
+P 6600 2065
+F 0 "#PWR06" H 6600 1815 50  0001 C CNN
+F 1 "GND" H 6600 1915 50  0000 C CNN
+F 2 "" H 6600 2065 50  0001 C CNN
+F 3 "" H 6600 2065 50  0001 C CNN
+	1    6600 2065
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5B3DDE4F
+P 5315 2015
+F 0 "#PWR07" H 5315 1765 50  0001 C CNN
+F 1 "GND" H 5315 1865 50  0000 C CNN
+F 2 "" H 5315 2015 50  0001 C CNN
+F 3 "" H 5315 2015 50  0001 C CNN
+	1    5315 2015
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5B3DDE8D
+P 5315 1405
+F 0 "#PWR08" H 5315 1155 50  0001 C CNN
+F 1 "GND" H 5315 1255 50  0000 C CNN
+F 2 "" H 5315 1405 50  0001 C CNN
+F 3 "" H 5315 1405 50  0001 C CNN
+	1    5315 1405
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5B3DDFEC
+P 4045 1425
+F 0 "#PWR09" H 4045 1175 50  0001 C CNN
+F 1 "GND" H 4045 1275 50  0000 C CNN
+F 2 "" H 4045 1425 50  0001 C CNN
+F 3 "" H 4045 1425 50  0001 C CNN
+	1    4045 1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5B3DE02A
+P 4035 2105
+F 0 "#PWR010" H 4035 1855 50  0001 C CNN
+F 1 "GND" H 4035 1955 50  0000 C CNN
+F 2 "" H 4035 2105 50  0001 C CNN
+F 3 "" H 4035 2105 50  0001 C CNN
+	1    4035 2105
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 5B3DE068
+P 2545 2025
+F 0 "#PWR011" H 2545 1775 50  0001 C CNN
+F 1 "GND" H 2545 1875 50  0000 C CNN
+F 2 "" H 2545 2025 50  0001 C CNN
+F 3 "" H 2545 2025 50  0001 C CNN
+	1    2545 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5B3DE0A6
+P 2535 1415
+F 0 "#PWR012" H 2535 1165 50  0001 C CNN
+F 1 "GND" H 2535 1265 50  0000 C CNN
+F 2 "" H 2535 1415 50  0001 C CNN
+F 3 "" H 2535 1415 50  0001 C CNN
+	1    2535 1415
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2325 3465 3070 3465
+Wire Wire Line
+	3070 1740 3070 3465
+Wire Wire Line
+	3070 1740 2335 1740
+Connection ~ 3070 3465
+Wire Wire Line
+	2325 4900 3070 4900
+Wire Wire Line
+	3070 6550 2255 6550
+Connection ~ 3070 4900
+Wire Wire Line
+	3865 1800 4150 1800
+Wire Wire Line
+	4150 1800 4150 3465
+Connection ~ 4150 3465
+Wire Wire Line
+	5165 1770 5500 1770
+Wire Wire Line
+	5500 1770 5500 3465
+Connection ~ 5500 3465
+Wire Wire Line
+	6475 1780 6880 1780
+Wire Wire Line
+	6880 1780 6880 3465
+Connection ~ 6880 3465
+Wire Wire Line
+	7775 1750 8350 1750
+Wire Wire Line
+	8350 1750 8350 3465
+Connection ~ 8350 3465
+Wire Wire Line
+	9210 3095 9270 3095
+Wire Wire Line
+	9270 3095 9270 3465
+Connection ~ 9270 3465
+Wire Wire Line
+	9390 3265 9390 3215
+Wire Wire Line
+	9390 3215 9515 3215
+Wire Wire Line
+	9515 3215 9515 3365
+Wire Wire Line
+	9515 3365 9645 3365
+Wire Wire Line
+	7765 1220 8685 1220
+Wire Wire Line
+	8685 1220 8685 3565
+Wire Wire Line
+	8685 3565 9645 3565
+Wire Wire Line
+	9645 3665 7210 3665
+Wire Wire Line
+	7210 3665 7210 1250
+Wire Wire Line
+	7210 1250 6465 1250
+Wire Wire Line
+	5155 1240 5795 1240
+Wire Wire Line
+	5795 1240 5795 3765
+Wire Wire Line
+	5795 3765 9645 3765
+Wire Wire Line
+	9645 3865 4450 3865
+Wire Wire Line
+	4450 3865 4450 1270
+Wire Wire Line
+	4450 1270 3855 1270
+Wire Wire Line
+	2325 1210 3320 1210
+Wire Wire Line
+	3320 1210 3320 3965
+Wire Wire Line
+	3320 3965 9645 3965
+Wire Wire Line
+	2315 2935 2825 2935
+Wire Wire Line
+	2825 2935 2825 4065
+Wire Wire Line
+	2825 4065 9645 4065
+Wire Wire Line
+	9645 4165 2825 4165
+Wire Wire Line
+	2825 4165 2825 4370
+Wire Wire Line
+	2825 4370 2315 4370
+Wire Wire Line
+	2315 6020 3320 6020
+Wire Wire Line
+	3320 6020 3320 4265
+Wire Wire Line
+	3320 4265 9645 4265
+Wire Wire Line
+	9380 4365 9380 4465
+Wire Wire Line
+	9380 4365 9645 4365
+Wire Wire Line
+	9645 4465 9380 4465
+Connection ~ 9380 4465
+Wire Wire Line
+	9645 4565 9380 4565
+Connection ~ 9380 4565
+Wire Wire Line
+	9645 4665 9380 4665
+Connection ~ 9380 4665
+Wire Wire Line
+	7765 1320 7945 1320
+Wire Wire Line
+	7945 1320 7945 1380
+Wire Wire Line
+	7775 1850 7935 1850
+Wire Wire Line
+	7935 1850 7935 1950
+Wire Wire Line
+	7775 1950 7935 1950
+Connection ~ 7935 1950
+Wire Wire Line
+	6465 1350 6615 1350
+Wire Wire Line
+	6615 1350 6615 1415
+Wire Wire Line
+	6475 1880 6600 1880
+Wire Wire Line
+	6600 1880 6600 1980
+Wire Wire Line
+	6475 1980 6600 1980
+Connection ~ 6600 1980
+Wire Wire Line
+	5165 1870 5315 1870
+Wire Wire Line
+	5315 1870 5315 1970
+Wire Wire Line
+	5165 1970 5315 1970
+Connection ~ 5315 1970
+Wire Wire Line
+	3855 1370 4045 1370
+Wire Wire Line
+	4045 1370 4045 1425
+Wire Wire Line
+	3865 1900 4035 1900
+Wire Wire Line
+	4035 1900 4035 2000
+Wire Wire Line
+	3865 2000 4035 2000
+Connection ~ 4035 2000
+Wire Wire Line
+	2335 1840 2545 1840
+Wire Wire Line
+	2545 1840 2545 1940
+Wire Wire Line
+	2335 1940 2545 1940
+Connection ~ 2545 1940
+Wire Wire Line
+	2325 1310 2535 1310
+Wire Wire Line
+	2535 1310 2535 1415
+$Comp
+L power:GND #PWR013
+U 1 1 5B3E0C96
+P 2505 3075
+F 0 "#PWR013" H 2505 2825 50  0001 C CNN
+F 1 "GND" H 2505 2925 50  0000 C CNN
+F 2 "" H 2505 3075 50  0001 C CNN
+F 3 "" H 2505 3075 50  0001 C CNN
+	1    2505 3075
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 5B3E0D8F
+P 2495 3700
+F 0 "#PWR014" H 2495 3450 50  0001 C CNN
+F 1 "GND" H 2495 3550 50  0000 C CNN
+F 2 "" H 2495 3700 50  0001 C CNN
+F 3 "" H 2495 3700 50  0001 C CNN
+	1    2495 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 5B3E0DCD
+P 2505 4530
+F 0 "#PWR015" H 2505 4280 50  0001 C CNN
+F 1 "GND" H 2505 4380 50  0000 C CNN
+F 2 "" H 2505 4530 50  0001 C CNN
+F 3 "" H 2505 4530 50  0001 C CNN
+	1    2505 4530
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 5B3E0FA3
+P 2495 5155
+F 0 "#PWR016" H 2495 4905 50  0001 C CNN
+F 1 "GND" H 2495 5005 50  0000 C CNN
+F 2 "" H 2495 5155 50  0001 C CNN
+F 3 "" H 2495 5155 50  0001 C CNN
+	1    2495 5155
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 5B3E1446
+P 2480 6155
+F 0 "#PWR017" H 2480 5905 50  0001 C CNN
+F 1 "GND" H 2480 6005 50  0000 C CNN
+F 2 "" H 2480 6155 50  0001 C CNN
+F 3 "" H 2480 6155 50  0001 C CNN
+	1    2480 6155
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 5B3E14FB
+P 2460 6825
+F 0 "#PWR018" H 2460 6575 50  0001 C CNN
+F 1 "GND" H 2460 6675 50  0000 C CNN
+F 2 "" H 2460 6825 50  0001 C CNN
+F 3 "" H 2460 6825 50  0001 C CNN
+	1    2460 6825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2460 6825 2460 6750
+Wire Wire Line
+	2460 6650 2255 6650
+Wire Wire Line
+	2255 6750 2460 6750
+Connection ~ 2460 6750
+Wire Wire Line
+	2315 6120 2480 6120
+Wire Wire Line
+	2480 6120 2480 6155
+Wire Wire Line
+	2325 5000 2495 5000
+Wire Wire Line
+	2495 5000 2495 5100
+Wire Wire Line
+	2325 5100 2495 5100
+Connection ~ 2495 5100
+Wire Wire Line
+	2315 4470 2505 4470
+Wire Wire Line
+	2505 4470 2505 4530
+Wire Wire Line
+	2325 3565 2495 3565
+Wire Wire Line
+	2495 3565 2495 3665
+Wire Wire Line
+	2325 3665 2495 3665
+Connection ~ 2495 3665
+Wire Wire Line
+	2315 3035 2505 3035
+Wire Wire Line
+	2505 3035 2505 3075
+Text Notes 9130 5155 0    60   ~ 0
+14 Pin Male Header 1mm Pitch
+Wire Wire Line
+	5155 1340 5315 1340
+Wire Wire Line
+	5315 1340 5315 1405
+Wire Wire Line
+	3070 3465 4150 3465
+Wire Wire Line
+	3070 3465 3070 4900
+Wire Wire Line
+	3070 4900 3070 6550
+Wire Wire Line
+	4150 3465 5500 3465
+Wire Wire Line
+	5500 3465 6880 3465
+Wire Wire Line
+	6880 3465 8350 3465
+Wire Wire Line
+	8350 3465 9270 3465
+Wire Wire Line
+	9270 3465 9645 3465
+Wire Wire Line
+	9380 4465 9380 4565
+Wire Wire Line
+	9380 4565 9380 4665
+Wire Wire Line
+	9380 4665 9380 4730
+Wire Wire Line
+	7935 1950 7935 2055
+Wire Wire Line
+	6600 1980 6600 2065
+Wire Wire Line
+	5315 1970 5315 2015
+Wire Wire Line
+	4035 2000 4035 2105
+Wire Wire Line
+	2545 1940 2545 2025
+Wire Wire Line
+	2460 6750 2460 6650
+Wire Wire Line
+	2495 5100 2495 5155
+Wire Wire Line
+	2495 3665 2495 3700
+Text Notes 7165 5960 0    60   ~ 0
+Nu Project by Cycfi Research is licensed under a Creative \nCommons Attribution-ShareAlike 4.0 International License. \nhttp://creativecommons.org/licenses/by-nc/4.0/\n\nCopyright CYCFI Research Inc. 2013-2021
+$EndSCHEMATC

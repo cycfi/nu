@@ -1,6 +1,6 @@
-update=Monday, 15 November 2021 at 17:11:12
+update=Monday, 15 November 2021 at 17:34:38
 version=1
-last_client=kicad
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -25,16 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[eeschema]
+version=1
+LibDir=
 [schematic_editor]
 version=1
-PageLayoutDescrFile=C:/Users/Herald Labial/Desktop/logo.pretty/Layout.kicad_wks
+PageLayoutDescrFile=/Users/joel/dev/cycfi/pcb_common/kicad_frame.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
+SpiceAjustPassiveValues=0
 LabSize=60
-[eeschema]
-version=1
-LibDir=
+ERC_TestSimilarLabels=1

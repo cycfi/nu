@@ -5,9 +5,9 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Nu Multi 7 Board"
-Date ""
-Rev "v0.9"
-Comp ""
+Date "2021-11-15"
+Rev "v2.5"
+Comp "Document Number: 2021010"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -663,4 +663,6 @@ Wire Wire Line
 Wire Wire Line
 	9735 3650 9735 3750
 Connection ~ 9735 3750
+Text Notes 6985 5660 0    60   ~ 0
+Nu Project by Cycfi Research is licensed under a Creative \nCommons Attribution-ShareAlike 4.0 International License. \nhttp://creativecommons.org/licenses/by-nc/4.0/\n\nCopyright CYCFI Research Inc. 2013-2021
 $EndSCHEMATC
