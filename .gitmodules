@@ -1,0 +1,3 @@
+[submodule "pcb_common"]
+	path = pcb_common
+	url = git@github.com:cycfi/pcb_common.git
