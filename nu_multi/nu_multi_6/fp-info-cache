@@ -1,4 +1,4 @@
-20201248100750611
+20202895368131766
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85749,6 +85749,13 @@ mouse-bite-3mm-slot-one-side
 0
 0
 0
+cycfi_library
+nu_capsule
+
+
+0
+5
+3
 cycfi_library
 nu_magnet_pad
 
