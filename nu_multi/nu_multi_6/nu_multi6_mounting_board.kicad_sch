@@ -6,8 +6,8 @@
 
   (title_block
     (title "Nu Multi 6 Output Board")
-    (date "2021-11-15")
-    (rev "v2.51")
+    (date "2022-03-14")
+    (rev "v2.52")
     (company "Document Number: 2021009")
   )
 
@@ -716,7 +716,7 @@
   )
 
   (no_connect (at 185.42 68.58) (uuid eb819ea1-efde-4136-95a5-4c5d60960987))
-  (no_connect (at 185.42 71.12) (uuid eb819ea1-efde-4136-95a5-4c5d60960987))
+  (no_connect (at 185.42 71.12) (uuid eb819ea1-efde-4136-95a5-4c5d60960988))
 
   (wire (pts (xy 177.8 78.74) (xy 177.8 81.28))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -847,7 +847,7 @@
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid d5641ac9-9be7-46bf-90b3-6c83d852b5ba)
   )
-  (text "Nu Project by Cycfi Research is licensed under a Creative \nCommons Attribution-ShareAlike 4.0 International License. \nhttp://creativecommons.org/licenses/by-nc/4.0/\n\nCopyright CYCFI Research Inc. 2013-2021"
+  (text "Nu Project by Cycfi Research is licensed under a Creative \nCommons Attribution-ShareAlike 4.0 International License. \nhttp://creativecommons.org/licenses/by-nc/4.0/\n\nCopyright CYCFI Research Inc. 2013-2022"
     (at 193.294 145.923 0)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid dde51ae5-b215-445e-92bb-4a12ec410531)
