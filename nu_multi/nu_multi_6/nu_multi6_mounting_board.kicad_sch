@@ -998,7 +998,7 @@
     (property "Value" "CONN_01X14" (id 1) (at 190.5 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Pin_Headers:Pin_Header_Straight_2x07_Pitch1.00mm_SMD" (id 2) (at 190.5 64.77 0)
+    (property "Footprint" "cycfi_library:pin_header_2x7p_1.00mm_smd_vertical" (id 2) (at 190.5 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 190.5 64.77 0)
@@ -1340,7 +1340,7 @@
       (reference "#PWR014") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005aa25edc"
-      (reference "J13") (unit 1) (value "CONN_01X14") (footprint "Pin_Headers:Pin_Header_Straight_2x07_Pitch1.00mm_SMD")
+      (reference "J13") (unit 1) (value "CONN_01X14") (footprint "cycfi_library:pin_header_2x7p_1.00mm_smd_vertical")
     )
     (path "/09c5aab3-f4a7-4ad0-af7b-ac955e31a570"
       (reference "U1") (unit 1) (value "nu_capsule") (footprint "cycfi_library:nu_capsule")

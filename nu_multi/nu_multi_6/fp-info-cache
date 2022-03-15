@@ -1,4 +1,4 @@
-20202895368131766
+20204542669827630
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85819,6 +85819,13 @@ pin_header_2x5p_2.54mm_smd_horizontal
 0
 10
 10
+cycfi_library
+pin_header_2x7p_1.00mm_smd_vertical
+surface-mounted straight pin header, 2x7, 1.00mm pitch, double rows
+Surface mounted pin header SMD 2x7 1.00mm double row
+0
+14
+14
 cycfi_library
 pin_socket_1x4p_2.54mm_smd_horizontal
 
