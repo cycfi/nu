@@ -29,3 +29,4 @@ fp-info-cache
 *.csv
 /hardware/tone_block/panel/
 /hardware/preamp/panel/
+/internal_breakout/kicad/panel/
