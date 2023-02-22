@@ -1394,7 +1394,7 @@
     (property "Value" "single_pad" (id 1) (at 92.075 86.995 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "cycfi_library:single-pad-1x2" (id 2) (at 97.155 86.995 0)
+    (property "Footprint" "cycfi_library:single-pad-1.5x2" (id 2) (at 97.155 86.995 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 97.155 86.995 0)
@@ -1426,7 +1426,7 @@
     (property "Value" "single_pad" (id 1) (at 92.075 100.965 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "cycfi_library:single-pad-1x2" (id 2) (at 97.155 100.965 0)
+    (property "Footprint" "cycfi_library:single-pad-1.5x2" (id 2) (at 97.155 100.965 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 97.155 100.965 0)
@@ -1444,7 +1444,7 @@
     (property "Value" "single_pad" (id 1) (at 90.805 93.345 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "cycfi_library:single-pad-1x2" (id 2) (at 85.725 93.345 0)
+    (property "Footprint" "cycfi_library:single-pad-2x2" (id 2) (at 85.725 93.345 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 85.725 93.345 0)
@@ -1585,16 +1585,16 @@
       (reference "H2") (unit 1) (value "3P-2MM-TH-MALE") (footprint "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical")
     )
     (path "/3ea08aa2-30b3-4316-9947-99498a333ae5"
-      (reference "H3") (unit 1) (value "single_pad") (footprint "cycfi_library:single-pad-1x2")
+      (reference "H3") (unit 1) (value "single_pad") (footprint "cycfi_library:single-pad-1.5x2")
     )
     (path "/6be6b33d-2d6b-41fa-a843-dedfce019f1e"
-      (reference "H4") (unit 1) (value "single_pad") (footprint "cycfi_library:single-pad-1x2")
+      (reference "H4") (unit 1) (value "single_pad") (footprint "cycfi_library:single-pad-1.5x2")
     )
     (path "/4f811a13-52d1-4f14-b90d-277873be73a7"
       (reference "H5") (unit 1) (value "single_pad") (footprint "cycfi_library:single-pad-4x4-circular")
     )
     (path "/9714a8db-af07-4979-a536-0382a7d2d414"
-      (reference "H6") (unit 1) (value "single_pad") (footprint "cycfi_library:single-pad-1x2")
+      (reference "H6") (unit 1) (value "single_pad") (footprint "cycfi_library:single-pad-2x2")
     )
     (path "/00000000-0000-0000-0000-00005acc853b"
       (reference "R2") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
