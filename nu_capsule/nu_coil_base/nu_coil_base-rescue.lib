@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# single_pad_smd-cycfi_library
+#
+DEF single_pad_smd-cycfi_library H 0 40 N N 1 F N
+F0 "H" 0 300 50 H V C CNN
+F1 "single_pad_smd-cycfi_library" 0 200 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*Pad*
+$ENDFPLIST
+DRAW
+S -60 90 60 10 0 1 20 f
+X 1 1 0 -100 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "cycfi_library")(type "KiCad")(uri "${KIPRJMOD}/../pcb_common/kicad/cycfi_library.kicad_sym")(options "")(descr ""))
+)

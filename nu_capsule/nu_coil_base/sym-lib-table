@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "nu_coil_base-rescue")(type "Legacy")(uri "${KIPRJMOD}/nu_coil_base-rescue.lib")(options "")(descr ""))
+)
