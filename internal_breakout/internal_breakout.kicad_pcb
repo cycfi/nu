@@ -1839,7 +1839,7 @@
   (gr_text "IN" (at 156.92 89.789) (layer "F.SilkS") (tstamp 9dab0cb7-2557-4419-963b-5ae736517f62)
     (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left bottom))
   )
-  (gr_text "Internal Breakout V2.52" (at 133.9 120.9) (layer "F.SilkS") (tstamp b60c50d1-225e-415c-8712-7acb5e3dc8ea)
+  (gr_text "Internal Breakout V2.6" (at 134.4 120.9) (layer "F.SilkS") (tstamp b60c50d1-225e-415c-8712-7acb5e3dc8ea)
     (effects (font (size 0.5 0.5) (thickness 0.1)) (justify left bottom))
   )
   (gr_text "CH 7-14" (at 131.35 112.35 90) (layer "F.SilkS") (tstamp c19dbe3c-ced0-48f7-a91d-777569cfb936)
