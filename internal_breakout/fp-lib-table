@@ -1,4 +1,4 @@
 (fp_lib_table
   (lib (name "internal_breakout")(type "KiCad")(uri "$(KIPRJMOD)/internal_breakout.pretty")(options "")(descr ""))
-  (lib (name "cycfi_library")(type "KiCad")(uri "$(KIPRJMOD)/../../pcb_common/kicad/cycfi_library.pretty")(options "")(descr ""))
+  (lib (name "cycfi_library")(type "KiCad")(uri "$(KIPRJMOD)/../pcb_common/kicad/cycfi_library.pretty")(options "")(descr ""))
 )
