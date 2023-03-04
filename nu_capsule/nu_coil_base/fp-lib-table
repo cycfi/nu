@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "kikit")(type "KiCad")(uri "/Users/joel/dev/cycfi/nu/pcb_common/kicad/kikit.pretty")(options "")(descr ""))
+)
