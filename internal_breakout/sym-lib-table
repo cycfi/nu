@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "internal_breakout-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/internal_breakout-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "cycfi_libary")(type "KiCad")(uri "${KIPRJMOD}/../pcb_common/kicad/cycfi_library.kicad_sym")(options "")(descr ""))
 )
