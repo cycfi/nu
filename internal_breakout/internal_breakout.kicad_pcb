@@ -711,7 +711,7 @@
     (at 133.4 103.8 90)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
-    (property "LCSC" "1206")
+    (property "LCSC" "C2912621")
     (property "Sheetfile" "File: internal_breakout.kicad_sch")
     (property "Sheetname" "")
     (path "/7922e50e-d9d4-4547-b943-9f0696e29a04")
