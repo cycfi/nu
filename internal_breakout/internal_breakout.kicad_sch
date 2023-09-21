@@ -7,7 +7,7 @@
   (title_block
     (title "Document Number: 2022012")
     (date "2023-04-20")
-    (rev "2.6")
+    (rev "2.61")
   )
 
   (lib_symbols
@@ -1295,7 +1295,7 @@
     (uuid ff63fee4-ca42-4f3f-b73a-dcbc6e41292f)
   )
 
-  (text "Poly-Fuse and\nReverse Polarity \nProtection" (at 142.24 33.655 0)
+  (text "Polyfuse and\nReverse Polarity \nProtection" (at 142.24 33.655 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 04cf5e5a-7c64-4555-86a5-5fadc172ebda)
   )
@@ -1348,7 +1348,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid df795238-429b-4234-8c63-450f8c73dcd0)
   )
-  (text "Power Out" (at 66.04 123.19 180)
+  (text "Power Out" (at 66.04 122.555 180)
     (effects (font (size 1.778 1.5113)) (justify right bottom))
     (uuid eccdf86f-23ac-4077-b13e-27dc356e9a70)
   )
