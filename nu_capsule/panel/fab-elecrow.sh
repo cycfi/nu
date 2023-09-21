@@ -1,6 +1,6 @@
 kikit panelize \
     --layout 'grid; rows: 4; cols: 5; space: 3mm' \
-    --tabs 'fixed; hwidth: 9mm; vwidth: 2.5mm; vcount: 1; hcount: 1' \
+    --tabs 'fixed; hwidth: 9mm; vwidth: 2.5mm; vcount: 0; hcount: 1' \
     --cuts vcuts \
     --post 'millradius: 1mm' \
     --framing 'frame; width: 5mm; space: 3mm;' \
