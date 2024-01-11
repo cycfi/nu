@@ -2306,7 +2306,7 @@
   (gr_text "CH9" (at 146 99.5 90) (layer "F.SilkS") (tstamp c201e1b2-fc01-4110-bdaa-a33290468c83)
     (effects (font (size 0.7 0.7) (thickness 0.15)) (justify bottom))
   )
-  (gr_text "Power\nOut" (at 169.2 111.2 90) (layer "F.SilkS") (tstamp c47231a8-95ef-430c-a94c-f35b989717b5)
+  (gr_text "POWER\nOUT" (at 169.2 111.2 90) (layer "F.SilkS") (tstamp c47231a8-95ef-430c-a94c-f35b989717b5)
     (effects (font (size 0.7 0.7) (thickness 0.15)) (justify bottom))
   )
   (gr_text "IN" (at 154.025 89.25) (layer "F.SilkS") (tstamp c79091d6-8051-49bf-88af-ed44ee50b702)
