@@ -1,5 +1,5 @@
 kikit panelize \
-    --layout 'grid; rows: 8; cols: 9; hspace: 2mm; vspace: 2.5mm'\
+    --layout 'grid; rows: 10; cols: 10; hspace: 2mm; vspace: 2.5mm'\
     --tabs annotation \
     --source 'tolerance: 15mm' \
     --cuts 'vcuts' \
