@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Nu Multi 6 Output Board")
-		(date "2025-03-06")
-		(rev "v2.53")
+		(date "2025-03-20")
+		(rev "v2.54")
 		(company "Document Number: 2021009")
 	)
 	(lib_symbols

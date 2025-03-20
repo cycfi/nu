@@ -1,4 +1,4 @@
-24566797134091723
+24568614017265644
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98601,6 +98601,13 @@ cycfi_library
 0
 10
 10
+cycfi_library
+2x6_2mm_Nu_Multi_SMD
+
+
+0
+12
+12
 cycfi_library
 Alps_RS301111A01G
 
