@@ -3030,7 +3030,7 @@
 		(layer "Edge.Cuts")
 		(uuid "eb1d0c97-317a-406b-9c78-8e6045b96f60")
 	)
-	(gr_text "Nu Multi 8 \nv2.54\n10.5mm\n"
+	(gr_text "Nu Multi 8 \nv2.8\n10.5mm\n"
 		(at 179.8 91.07 0)
 		(layer "F.SilkS")
 		(uuid "477311b9-8f81-40c8-9c55-fd87e287247a")
