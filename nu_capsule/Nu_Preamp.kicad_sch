@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "36430a28-a7cb-494b-87d7-ac64e72c2091")
 	(paper "A4")
 	(title_block
@@ -12,7 +12,9 @@
 	)
 	(lib_symbols
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -85,7 +87,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -97,7 +99,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -146,9 +148,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -267,11 +272,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Nu_Preamp:DINA4_L"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -331,7 +341,7 @@
 			(symbol "DINA4_L_2_0"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 5.08)
+						(xy 0 22.86) (xy 0 35.56)
 					)
 					(stroke
 						(width 0)
@@ -343,7 +353,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 71.12 0)
+						(xy 0 22.86) (xy 101.6 22.86)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 15.24) (xy 0 22.86)
 					)
 					(stroke
 						(width 0)
@@ -379,7 +401,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 15.24) (xy 0 22.86)
+						(xy 0 0) (xy 0 5.08)
 					)
 					(stroke
 						(width 0)
@@ -391,31 +413,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 22.86) (xy 0 35.56)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 22.86) (xy 101.6 22.86)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 71.12 0) (xy 101.6 0)
+						(xy 0 0) (xy 71.12 0)
 					)
 					(stroke
 						(width 0)
@@ -451,7 +449,7 @@
 				)
 				(polyline
 					(pts
-						(xy 87.63 5.08) (xy 101.6 5.08)
+						(xy 71.12 0) (xy 101.6 0)
 					)
 					(stroke
 						(width 0)
@@ -487,7 +485,43 @@
 				)
 				(polyline
 					(pts
-						(xy 101.6 5.08) (xy 101.6 0)
+						(xy 87.63 5.08) (xy 101.6 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 101.6 35.56) (xy 0 35.56)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 101.6 35.56) (xy 101.6 22.86)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 101.6 22.86) (xy 101.6 15.24)
 					)
 					(stroke
 						(width 0)
@@ -523,7 +557,7 @@
 				)
 				(polyline
 					(pts
-						(xy 101.6 22.86) (xy 101.6 15.24)
+						(xy 101.6 5.08) (xy 101.6 0)
 					)
 					(stroke
 						(width 0)
@@ -531,82 +565,10 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 101.6 35.56) (xy 0 35.56)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 101.6 35.56) (xy 101.6 22.86)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text ">DRAWING_NAME"
-					(at 30.48 20.066 0)
-					(effects
-						(font
-							(size 2.032 2.032)
-						)
-					)
-				)
-				(text ">LAST_DATE_TIME"
-					(at 27.3558 2.286 0)
-					(effects
-						(font
-							(size 2.032 2.032)
-						)
-					)
-				)
-				(text ">SHEET"
-					(at 92.2274 2.286 0)
-					(effects
-						(font
-							(size 2.032 2.032)
-						)
 					)
 				)
 				(text "Date:"
 					(at 6.1468 2.286 0)
-					(effects
-						(font
-							(size 2.032 2.032)
-						)
-					)
-				)
-				(text "Document Number:"
-					(at 16.9164 12.446 0)
-					(effects
-						(font
-							(size 2.032 2.032)
-						)
-					)
-				)
-				(text "REV:"
-					(at 92.8116 12.446 0)
-					(effects
-						(font
-							(size 2.032 2.032)
-						)
-					)
-				)
-				(text "Sheet:"
-					(at 78.2574 2.286 0)
 					(effects
 						(font
 							(size 2.032 2.032)
@@ -621,11 +583,62 @@
 						)
 					)
 				)
+				(text "Document Number:"
+					(at 16.9164 12.446 0)
+					(effects
+						(font
+							(size 2.032 2.032)
+						)
+					)
+				)
+				(text ">LAST_DATE_TIME"
+					(at 27.3558 2.286 0)
+					(effects
+						(font
+							(size 2.032 2.032)
+						)
+					)
+				)
+				(text ">DRAWING_NAME"
+					(at 30.48 20.066 0)
+					(effects
+						(font
+							(size 2.032 2.032)
+						)
+					)
+				)
+				(text "Sheet:"
+					(at 78.2574 2.286 0)
+					(effects
+						(font
+							(size 2.032 2.032)
+						)
+					)
+				)
+				(text ">SHEET"
+					(at 92.2274 2.286 0)
+					(effects
+						(font
+							(size 2.032 2.032)
+						)
+					)
+				)
+				(text "REV:"
+					(at 92.8116 12.446 0)
+					(effects
+						(font
+							(size 2.032 2.032)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "cycfi_library:conn_1x2"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -683,8 +696,8 @@
 			)
 			(symbol "conn_1x2_0_1"
 				(rectangle
-					(start -1.27 -1.143)
-					(end 0.254 -1.397)
+					(start -1.27 2.54)
+					(end 1.27 -2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -705,8 +718,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 2.54)
-					(end 1.27 -2.54)
+					(start -1.27 -1.143)
+					(end 0.254 -1.397)
 					(stroke
 						(width 0)
 						(type default)
@@ -754,10 +767,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "cycfi_library:conn_1x3"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -815,19 +831,8 @@
 			)
 			(symbol "conn_1x3_0_1"
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0.254 -2.667)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0.254 -0.127)
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0)
 						(type default)
@@ -848,8 +853,19 @@
 					)
 				)
 				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
+					(start -1.27 0.127)
+					(end 0.254 -0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0.254 -2.667)
 					(stroke
 						(width 0)
 						(type default)
@@ -915,6 +931,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "cycfi_library:opamp_dbv"
 			(pin_names
@@ -1001,24 +1018,6 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
 					(name "V+"
@@ -1036,19 +1035,17 @@
 						)
 					)
 				)
-			)
-			(symbol "opamp_dbv_1_1"
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1056,6 +1053,8 @@
 						)
 					)
 				)
+			)
+			(symbol "opamp_dbv_1_1"
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -1092,11 +1091,32 @@
 						)
 					)
 				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "cycfi_library:q_pmos_gsd"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1157,30 +1177,6 @@
 			(symbol "q_pmos_gsd_0_1"
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy 2.54 2.413)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 0.127) (xy 3.683 0.127)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -2.54 -1.27) (xy 0 -1.27) (xy 0 2.54)
 					)
 					(stroke
@@ -1193,14 +1189,38 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy 2.54 0.635) (xy 0.762 0.635)
+						(xy 0.508 2.921) (xy 0.508 1.905) (xy 0.762 1.905) (xy 0.762 2.921) (xy 0.508 2.921)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.143) (xy 0.508 0.127) (xy 0.762 0.127) (xy 0.762 1.143) (xy 0.508 1.143) (xy 0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -0.635) (xy 0.508 -1.651) (xy 0.762 -1.651) (xy 0.762 -0.635) (xy 0.508 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -1229,44 +1249,19 @@
 				)
 				(polyline
 					(pts
-						(xy 3.302 0.127) (xy 2.921 0.762) (xy 3.683 0.762) (xy 3.302 0.127)
+						(xy 2.54 2.54) (xy 2.54 2.413)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.508 -0.635) (xy 0.508 -1.651) (xy 0.762 -1.651) (xy 0.762 -0.635) (xy 0.508 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.921) (xy 0.508 1.905) (xy 0.762 1.905) (xy 0.762 2.921) (xy 0.508 2.921)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.143) (xy 0.508 0.127) (xy 0.762 0.127) (xy 0.762 1.143) (xy 0.508 1.143) (xy 0.508 1.016)
-					)
+				(circle
+					(center 2.54 2.413)
+					(radius 0.254)
 					(stroke
 						(width 0)
 						(type default)
@@ -1286,9 +1281,34 @@
 						(type outline)
 					)
 				)
-				(circle
-					(center 2.54 2.413)
-					(radius 0.254)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0.635) (xy 0.762 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.127) (xy 3.683 0.127)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.127) (xy 2.921 0.762) (xy 3.683 0.762) (xy 3.302 0.127)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -1318,24 +1338,6 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -3.81 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
 					(name "D"
@@ -1353,12 +1355,35 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 -3.81 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "cycfi_library:single_pad"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1457,6 +1482,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -1536,7 +1562,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -1553,12 +1580,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1649,7 +1681,85 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Coil Pads"
+		(exclude_from_sim no)
+		(at 82.55 127.635 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "65f16285-f1d3-4f19-a116-6eb747f4cdac")
+	)
+	(text "Nu Project by Cycfi Research is licensed under a Creative \nCommons Attribution-ShareAlike 4.0 International License. \nhttp://creativecommons.org/licenses/by-nc/4.0/\n\nCopyright CYCFI Research Inc. 2013-2025"
+		(exclude_from_sim no)
+		(at 28.575 183.515 0)
+		(effects
+			(font
+				(size 2.1844 2.1844)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a69d72a-b8b6-4e94-8f88-b42f132f9602")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 215.9 83.82 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "b03a936f-ea6e-4094-b723-0385299a0c05")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 215.9 81.28 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "d9746465-9cd0-490a-82c8-57f6f3ac106a")
+	)
+	(text "V+"
+		(exclude_from_sim no)
+		(at 215.9 78.74 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "ddce4b09-310a-4da5-a7c0-4e6d30af9429")
+	)
+	(text "OUT"
+		(exclude_from_sim no)
+		(at 215.9 116.84 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "e86e6960-75c4-405a-a5da-14d8b880050f")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 215.9 120.015 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "ede971f0-7ef6-497d-a1cb-d3235933ab1b")
 	)
 	(junction
 		(at 123.825 104.775)
@@ -2243,86 +2353,8 @@
 		)
 		(uuid "fe9f0c4b-2bd9-4038-b772-10a0ea08c3eb")
 	)
-	(text "Coil Pads"
-		(exclude_from_sim no)
-		(at 82.55 127.635 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "65f16285-f1d3-4f19-a116-6eb747f4cdac")
-	)
-	(text "Nu Project by Cycfi Research is licensed under a Creative \nCommons Attribution-ShareAlike 4.0 International License. \nhttp://creativecommons.org/licenses/by-nc/4.0/\n\nCopyright CYCFI Research Inc. 2013-2025"
-		(exclude_from_sim no)
-		(at 28.575 183.515 0)
-		(effects
-			(font
-				(size 2.1844 2.1844)
-			)
-			(justify left bottom)
-		)
-		(uuid "9a69d72a-b8b6-4e94-8f88-b42f132f9602")
-	)
-	(text "GND"
-		(exclude_from_sim no)
-		(at 215.9 83.82 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left bottom)
-		)
-		(uuid "b03a936f-ea6e-4094-b723-0385299a0c05")
-	)
-	(text "GND"
-		(exclude_from_sim no)
-		(at 215.9 81.28 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left bottom)
-		)
-		(uuid "d9746465-9cd0-490a-82c8-57f6f3ac106a")
-	)
-	(text "V+"
-		(exclude_from_sim no)
-		(at 215.9 78.74 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left bottom)
-		)
-		(uuid "ddce4b09-310a-4da5-a7c0-4e6d30af9429")
-	)
-	(text "OUT"
-		(exclude_from_sim no)
-		(at 215.9 116.84 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left bottom)
-		)
-		(uuid "e86e6960-75c4-405a-a5da-14d8b880050f")
-	)
-	(text "GND"
-		(exclude_from_sim no)
-		(at 215.9 120.015 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left bottom)
-		)
-		(uuid "ede971f0-7ef6-497d-a1cb-d3235933ab1b")
-	)
 	(label "IN-"
 		(at 100.965 118.745 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2333,7 +2365,6 @@
 	)
 	(label "IN+"
 		(at 100.965 104.775 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2344,7 +2375,6 @@
 	)
 	(label "OUT"
 		(at 185.42 116.205 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3810,13 +3840,21 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_CORRECTION" "0;0;180"
+		(property "JLCPCB_CORRECTION" "0;0;270"
 			(at 151.765 116.205 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C1850244"
+			(at 151.765 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4471,4 +4509,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
