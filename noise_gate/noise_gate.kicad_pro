@@ -63,10 +63,6 @@
         [
           "starved_thermal|116462500|92537500|fa5d77f7-1b08-4e1c-a988-1ac9c03e9563|1b19a69c-2fe9-4284-a0c2-a6f170c6b747|F.Cu",
           ""
-        ],
-        [
-          "starved_thermal|120250000|90570000|fa5d77f7-1b08-4e1c-a988-1ac9c03e9563|ba73180e-1c58-4ff6-b0ed-8799f734df24|F.Cu",
-          ""
         ]
       ],
       "meta": {
@@ -150,7 +146,7 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
+        "min_text_height": 0.7,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.25,
         "min_track_width": 0.2,

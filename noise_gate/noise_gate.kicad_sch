@@ -3523,7 +3523,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 162.941 50.673 0)
 			(effects
 				(font
@@ -3532,7 +3532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 160.9852 53.34 0)
 			(effects
 				(font
@@ -3559,7 +3559,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1779"
+		(property "LCSC" "C96446"
 			(at 160.02 49.53 0)
 			(effects
 				(font
@@ -3816,7 +3816,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 179.07 97.4852 0)
 			(effects
 				(font
@@ -3843,7 +3843,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15850"
+		(property "LCSC" "C96446"
 			(at 182.88 96.52 0)
 			(effects
 				(font
@@ -5337,7 +5337,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 107.95 94.9452 0)
 			(effects
 				(font
@@ -5364,7 +5364,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15850"
+		(property "LCSC" "C96446"
 			(at 111.76 93.98 0)
 			(effects
 				(font
@@ -6380,7 +6380,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 199.771 53.213 0)
 			(effects
 				(font
@@ -6389,7 +6389,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 197.8152 55.88 0)
 			(effects
 				(font
@@ -6416,7 +6416,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1779"
+		(property "LCSC" "C96446"
 			(at 196.85 52.07 0)
 			(effects
 				(font
