@@ -1,0 +1,8 @@
+/fp-info-cache
+# export files for BOM
+*.csv
+*.tsv
+*.xml
+# backup files
+*bak
+/_autosave-spectra.kicad_pcb
