@@ -8,7 +8,7 @@ kikit panelize \
     --fiducials '3fid; hoffset: 5mm; voffset: 2.5mm; coppersize: 2mm; opening: 1mm;' \
     --text 'simple; text: JLCJLCJLCJLC; anchor: mt; voffset: 2.5mm; hjustify: center; vjustify: center;' \
     --post 'millradius: 1mm' \
-    ../nu_multi6_mounting_board.kicad_pcb nu_multi6_mounting_board_panel.kicad_pcb
+    ../nu_multi_jb4_mounting_board.kicad_pcb nu_multi_jb4_mounting_board_panel.kicad_pcb
 
-kikit fab jlcpcb --no-drc nu_multi6_mounting_board_panel.kicad_pcb .
-mv gerbers.zip nu_multi6_mounting_board_gerbers.zip
+kikit fab jlcpcb --no-drc nu_multi_jb4_mounting_board_panel.kicad_pcb .
+mv gerbers.zip nu_multi_jb4_mounting_board_gerbers.zip
