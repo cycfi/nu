@@ -2437,19 +2437,19 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005acc7bdb")
 		(property "Reference" "C1"
-			(at 88.9 85.725 0)
+			(at 89.916 85.09 0)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Value" "100nF"
-			(at 86.995 89.535 0)
+			(at 87.122 87.249 0)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
@@ -2515,19 +2515,19 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005acc7ca3")
 		(property "Reference" "C2"
-			(at 73.66 85.725 0)
+			(at 73.406 84.582 0)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify right top)
 			)
 		)
 		(property "Value" "10uF"
-			(at 71.12 89.535 0)
+			(at 71.374 86.995 0)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify right top)
 			)
@@ -2593,19 +2593,19 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005acc7d6b")
 		(property "Reference" "C3"
-			(at 178.689 110.998 90)
+			(at 177.038 111.76 90)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Value" "10uF"
-			(at 183.896 119.126 90)
+			(at 178.562 119.634 90)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
@@ -2674,7 +2674,7 @@
 			(at 215.265 121.92 0)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify right top)
 			)
@@ -2762,7 +2762,7 @@
 			(at 216.535 85.725 0)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify right top)
 			)
@@ -2850,19 +2850,19 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005acc853b")
 		(property "Reference" "R2"
-			(at 184.15 129.54 0)
+			(at 189.992 128.524 0)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Value" "10k"
-			(at 191.77 129.54 0)
+			(at 190.754 130.81 0)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
@@ -2928,19 +2928,19 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005acc8603")
 		(property "Reference" "R3"
-			(at 149.225 146.05 90)
+			(at 149.606 145.034 90)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify right top)
 			)
 		)
 		(property "Value" "75K"
-			(at 148.59 139.7 90)
+			(at 149.098 139.954 90)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify right top)
 			)
@@ -3006,19 +3006,19 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005acc86cb")
 		(property "Reference" "R4"
-			(at 116.84 120.65 90)
+			(at 116.332 120.396 90)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify right top)
 			)
 		)
 		(property "Value" "3.3k"
-			(at 118.11 114.935 90)
+			(at 117.348 115.824 90)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify right top)
 			)
@@ -3084,19 +3084,19 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005acc8793")
 		(property "Reference" "R5"
-			(at 116.84 106.68 90)
+			(at 116.332 106.426 90)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify right top)
 			)
 		)
 		(property "Value" "3.3k"
-			(at 118.11 100.33 90)
+			(at 117.348 101.854 90)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify right top)
 			)
@@ -3162,19 +3162,19 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005acc885b")
 		(property "Reference" "R6"
-			(at 135.89 90.17 90)
+			(at 135.128 90.678 90)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify right top)
 			)
 		)
 		(property "Value" "150k"
-			(at 137.16 84.455 90)
+			(at 136.398 85.852 90)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify right top)
 			)
@@ -3240,19 +3240,19 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005acc8923")
 		(property "Reference" "R7"
-			(at 116.9289 90.4875 90)
+			(at 116.078 90.678 90)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify right top)
 			)
 		)
 		(property "Value" "150k"
-			(at 118.11 84.455 90)
+			(at 117.602 85.598 90)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify right top)
 			)
@@ -3807,7 +3807,7 @@
 			(at 151.765 111.76 0)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
@@ -3855,6 +3855,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4289,10 +4290,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cc9b3a04-a85e-4a5a-a178-fb1cb711d1d9")
 		(property "Reference" "Q1"
-			(at 180.5305 72.7542 90)
+			(at 180.848 71.374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4300,7 +4300,7 @@
 			)
 		)
 		(property "Value" "LBSS84LT1G"
-			(at 180.5305 75.2911 90)
+			(at 180.848 74.1649 90)
 			(effects
 				(font
 					(size 1.27 1.27)
