@@ -5,10 +5,10 @@
 	(uuid "13475e15-f37c-4de8-857e-1722b0c39513")
 	(paper "A4")
 	(title_block
-		(title "Buffer")
-		(date "2025-07-11")
+		(title "Noise Gate")
+		(date "2025-09-20")
 		(rev "1.0")
-		(company "Document No. 2025004")
+		(company "Document No. 2025008")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
@@ -4245,7 +4245,7 @@
 				)
 			)
 		)
-		(property "Value" "J202"
+		(property "Value" "J201"
 			(at 129.54 91.44 90)
 			(effects
 				(font
