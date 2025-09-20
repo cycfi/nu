@@ -6342,7 +6342,7 @@
 				)
 			)
 		)
-		(property "Value" "J202"
+		(property "Value" "MMBFJ113"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "89489670-014a-4448-8e25-c5cd93b3992e")
@@ -6377,7 +6377,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C891687"
+		(property "LCSC" "C891686"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

@@ -4245,7 +4245,7 @@
 				)
 			)
 		)
-		(property "Value" "J201"
+		(property "Value" "MMBFJ113"
 			(at 129.54 91.44 90)
 			(effects
 				(font
@@ -4280,7 +4280,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C891687"
+		(property "LCSC" "C891686"
 			(at 129.54 96.52 90)
 			(effects
 				(font
