@@ -59,7 +59,36 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_overlap|102000000|160750000|cecee14c-de2c-4111-9b3e-297d4320d106|df394b24-5176-40bf-83f3-0c233e5c22ce",
+          ""
+        ],
+        [
+          "silk_overlap|112000000|160750000|df394b24-5176-40bf-83f3-0c233e5c22ce|e1d55862-fc9c-45a4-9f94-ffe206d34f38",
+          ""
+        ],
+        [
+          "silk_overlap|122000000|160750000|cf5cea4c-610f-4d74-9095-10970353323d|e1d55862-fc9c-45a4-9f94-ffe206d34f38",
+          ""
+        ],
+        [
+          "silk_overlap|132000000|160750000|8f70981d-29b9-44f6-b9b1-536a0217c3c4|cf5cea4c-610f-4d74-9095-10970353323d",
+          ""
+        ],
+        [
+          "silk_overlap|142000000|160750000|21c805a7-2d52-4af3-aa5c-6baf4259e6bb|8f70981d-29b9-44f6-b9b1-536a0217c3c4",
+          ""
+        ],
+        [
+          "silk_overlap|82000000|160750000|13a42cbd-ae0f-4612-8cbc-5256afef318d|9ebcf631-f58b-4c70-a7e3-5fbbfd829ada",
+          ""
+        ],
+        [
+          "silk_overlap|92000000|160750000|9ebcf631-f58b-4c70-a7e3-5fbbfd829ada|cecee14c-de2c-4111-9b3e-297d4320d106",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
